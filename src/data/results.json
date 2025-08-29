@@ -1,0 +1,664 @@
+{
+    "matches": [
+        {
+            "journey": "Jornada 1",
+            "games": [
+                {
+                    "pairs": [["David Díez","Gustavo Guerrero"],["Arnau Cristóbal","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Angel Pérez","Ayman Pereira"],["Fran Domínguez","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Akos Szabo"],["Gerard Pérez","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 2",
+            "games": [
+                {
+                    "pairs": [["Gerard Pérez","Ayman Pereira"],["David Díez","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Akos Szabo","Arnau Cristóbal"],["Josep Cabrera","Gustavo Guerrero"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Blai Cabrera","Joaquín Sánchez"],["Angel Pérez","Fran Domínguez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 3",
+            "games": [
+                {
+                    "pairs": [["Angel Pérez","Arnau Cristóbal"],["Akos Szabo","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Fran Domínguez","Carlos Blanch"],["Gerard Pérez","David Díez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gustavo Guerrero","Ayman Pereira"],["Josep Cabrera","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 4",
+            "games": [
+                {
+                    "pairs": [["Josep Cabrera","David Díez"],["Gustavo Guerrero","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Joaquín Sánchez","Ayman Pereira"],["Akos Szabo","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Angel Pérez","Gerard Pérez"],["Fran Domínguez","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 5",
+            "games": [
+                {
+                    "pairs": [["Fran Domínguez","Ayman Pereira"],["Josep Cabrera","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gerard Pérez","Gustavo Guerrero"],["Angel Pérez","David Díez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Akos Szabo","Blai Cabrera"],["Joaquín Sánchez","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 6",
+            "games": [
+                {
+                    "pairs": [["Gustavo Guerrero","Joaquín Sánchez"],["Gerard Pérez","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Arnau Cristóbal","Carlos Blanch"],["Fran Domínguez","Josep Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["David Díez","Ayman Pereira"],["Angel Pérez","Akos Szabo"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 7",
+            "games": [
+                {
+                    "pairs": [["Angel Pérez","Josep Cabrera"],["David Díez","Akos Szabo"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Blai Cabrera","Ayman Pereira"],["Gerard Pérez","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Fran Domínguez","Joaquín Sánchez"],["Gustavo Guerrero","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 8",
+            "games": [
+                {
+                    "pairs": [["Carlos Blanch","Ayman Pereira"],["Angel Pérez","Gustavo Guerrero"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Fran Domínguez","David Díez"],["Josep Cabrera","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gerard Pérez","Akos Szabo"],["Blai Cabrera","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 9",
+            "games": [
+                {
+                    "pairs": [["David Díez","Blai Cabrera"],["Fran Domínguez","Akos Szabo"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gustavo Guerrero","Arnau Cristóbal"],["Angel Pérez","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Ayman Pereira"],["Gerard Pérez","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 10",
+            "games": [
+                {
+                    "pairs": [["Angel Pérez","Joaquín Sánchez"],["Josep Cabrera","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Akos Szabo","Ayman Pereira"],["Fran Domínguez","Gustavo Guerrero"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Blai Cabrera","Carlos Blanch"],["David Díez","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 11",
+            "games": [
+                {
+                    "pairs": [["Arnau Cristóbal","Ayman Pereira"],["David Díez","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Carlos Blanch"],["Angel Pérez","Blai Cabrera"]],    
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Fran Domínguez","Gerard Pérez"],["Akos Szabo","Gustavo Guerrero"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 12",
+            "games": [
+                {
+                    "pairs": [["Joaquín Sánchez","Akos Szabo"],["Arnau Cristóbal","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["David Díez","Fran Domínguez"],["Angel Pérez","Josep Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Carlos Blanch","Gustavo Guerrero"],["Ayman Pereira","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 13",
+            "games": [
+                {
+                    "pairs": [["Ayman Pereira","Fran Domínguez"],["Joaquín Sánchez","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gustavo Guerrero","Arnau Cristóbal"],["Carlos Blanch","Akos Szabo"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Blai Cabrera"],["David Díez","Angel Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 14",
+            "games": [
+                {
+                    "pairs": [["David Díez","Arnau Cristóbal"],["Gustavo Guerrero","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Angel Pérez","Gerard Pérez"],["Ayman Pereira","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Akos Szabo","Fran Domínguez"],["Carlos Blanch","Josep Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 15",
+            "games": [
+                {
+                    "pairs": [["Carlos Blanch","Joaquín Sánchez"],["Akos Szabo","Josep Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Blai Cabrera","Fran Domínguez"],["Gustavo Guerrero","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["David Díez","Ayman Pereira"],["Angel Pérez","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 16",
+            "games": [
+                {
+                    "pairs": [["Angel Pérez","Fran Domínguez"],["Carlos Blanch","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Ayman Pereira","Akos Szabo"],["David Díez","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gustavo Guerrero","Josep Cabrera"],["Blai Cabrera","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 17",
+            "games": [
+                {
+                    "pairs": [["Akos Szabo","Blai Cabrera"],["Ayman Pereira","Josep Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Arnau Cristóbal","Gerard Pérez"],["Angel Pérez","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Joaquín Sánchez","Fran Domínguez"],["David Díez","Gustavo Guerrero"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 18",
+            "games": [
+                {
+                    "pairs": [["David Díez","Carlos Blanch"],["Joaquín Sánchez","Gustavo Guerrero"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Fran Domínguez"],["Ayman Pereira","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Angel Pérez","Blai Cabrera"],["Akos Szabo","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 19",
+            "games": [
+                {
+                    "pairs": [["Gerard Pérez","Fran Domínguez"],["David Díez","Akos Szabo"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Angel Pérez","Joaquín Sánchez"],["Carlos Blanch","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Ayman Pereira","Gustavo Guerrero"],["Josep Cabrera","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 20",
+            "games": [
+                {
+                    "pairs": [["Joaquín Sánchez","Josep Cabrera"],["Angel Pérez","Gustavo Guerrero"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Akos Szabo","Arnau Cristóbal"],["David Díez","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Carlos Blanch","Fran Domínguez"],["Ayman Pereira","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 21",
+            "games": [
+                {
+                    "pairs": [["David Díez","Blai Cabrera"],["Carlos Blanch","Ayman Pereira"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gustavo Guerrero","Fran Domínguez"],["Angel Pérez","Akos Szabo"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Gerard Pérez"],["Joaquín Sánchez","Arnau Cristóbal"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 22",
+            "games": [
+                {
+                    "pairs": [["Arnau Cristóbal","Fran Domínguez"],["Joaquín Sánchez","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Carlos Blanch","Gerard Pérez"],["David Díez","Josep Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Angel Pérez","Ayman Pereira"],["Gustavo Guerrero","Akos Szabo"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 23",
+            "games": [
+                {
+                    "pairs": [["Angel Pérez","Ayman Pereira"],["Carlos Blanch","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gustavo Guerrero","Arnau Cristóbal"],["Josep Cabrera","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Fran Domínguez","David Díez"],["Akos Szabo","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 24",
+            "games": [
+                {
+                    "pairs": [["Akos Szabo","Arnau Cristóbal"],["Angel Pérez","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["David Díez","Carlos Blanch"],["Fran Domínguez","Ayman Pereira"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Blai Cabrera","Gerard Pérez"],["Gustavo Guerrero","Josep Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 25",
+            "games": [
+                {
+                    "pairs": [["Gustavo Guerrero","Carlos Blanch"],["David Díez","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Joaquín Sánchez"],["Akos Szabo","Angel Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Ayman Pereira","Arnau Cristóbal"],["Fran Domínguez","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 26",
+            "games": [
+                {
+                    "pairs": [["Fran Domínguez","Angel Pérez"],["Ayman Pereira","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gerard Pérez","Arnau Cristóbal"],["David Díez","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Gustavo Guerrero","Akos Szabo"],["Josep Cabrera","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 27",
+            "games": [
+                {
+                    "pairs": [["Josep Cabrera","Arnau Cristóbal"],["Fran Domínguez","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Akos Szabo","Ayman Pereira"],["Gustavo Guerrero","Angel Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["David Díez","Blai Cabrera"],["Gerard Pérez","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 28",
+            "games": [
+                {
+                    "pairs": [["Ayman Pereira","Gerard Pérez"],["Akos Szabo","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Carlos Blanch","Joaquín Sánchez"],["Josep Cabrera","Fran Domínguez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Angel Pérez","Arnau Cristóbal"],["Gustavo Guerrero","David Díez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 29",
+            "games": [
+                {
+                    "pairs": [["Gustavo Guerrero","Fran Domínguez"],["Angel Pérez","David Díez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Blai Cabrera","Arnau Cristóbal"],["Akos Szabo","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Gerard Pérez"],["Ayman Pereira","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 30",
+            "games": [
+                {
+                    "pairs": [["Joaquín Sánchez","Arnau Cristóbal"],["Gustavo Guerrero","Ayman Pereira"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Angel Pérez"],["Fran Domínguez","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Akos Szabo","David Díez"],["Blai Cabrera","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 31",
+            "games": [
+                {
+                    "pairs": [["Angel Pérez","Blai Cabrera"],["Josep Cabrera","David Díez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Ayman Pereira","Carlos Blanch"],["Gustavo Guerrero","Joaquín Sánchez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Fran Domínguez","Arnau Cristóbal"],["Akos Szabo","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 32",
+            "games": [
+                {
+                    "pairs": [["Gustavo Guerrero","Gerard Pérez"],["Fran Domínguez","Akos Szabo"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["David Díez","Arnau Cristóbal"],["Josep Cabrera","Ayman Pereira"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Blai Cabrera","Joaquín Sánchez"],["Angel Pérez","Carlos Blanch"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        },
+        {
+            "journey": "Jornada 33",
+            "games": [
+                {
+                    "pairs": [["Carlos Blanch","Arnau Cristóbal"],["Angel Pérez","Gerard Pérez"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Fran Domínguez","Joaquín Sánchez"],["Gustavo Guerrero","Blai Cabrera"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                },
+                {
+                    "pairs": [["Josep Cabrera","Akos Szabo"],["David Díez","Ayman Pereira"]],
+                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
+                    "points": [[null],[null]]
+                }
+            ]
+        }
+    ]
+}

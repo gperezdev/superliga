@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"League Spartan";
+    src: url("../assets/font/LeagueSpartan.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url("../assets/font/Montserrat.ttf") format("truetype");
+}
+
+:root {
+    --primary: #EAB86D;
+    --black: #161616;
+    --white: #F5F5F5;
+    --titles: "League Spartan";
+    --text: "Montserrat";
+}

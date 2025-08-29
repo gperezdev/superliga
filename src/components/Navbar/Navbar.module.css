@@ -1,0 +1,54 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    gap: 20px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 2rem 3.5rem;
+    width: 100%;
+    backdrop-filter: blur(20px);
+}
+
+.navbar .logo {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 24px;
+    height: auto;
+    object-fit: contain;
+}
+
+.navbar .logo span {
+    font-family: var(--titles);
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar .content {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    color: var(--primary);
+}
+
+.navbar .content a {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar .content a:hover {
+    filter: brightness(1.25);
+}
+
+.active {
+    font-weight: 800;
+}

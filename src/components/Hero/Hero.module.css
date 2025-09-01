@@ -61,10 +61,11 @@
 .hero .header .buttons {
     display: flex;
     gap: 10px;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
 .hero .header .buttons button {
+    width: 200px;
     padding: 0.35rem 3.5rem;
     border: 1px solid var(--primary);
     font-weight: 300;
@@ -77,30 +78,4 @@
 .hero .header .buttons button:hover {
     color: var(--black);
     background-color: var(--primary);
-}
-
-
-.hero .dropdown {
-    position: absolute;
-    bottom: 87px;
-    right: 0%;
-    transform: rotate(270deg);
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.hero .dropdown span {
-    width: 50px;
-    display: block;
-    height: 1px;
-    background: var(--primary);
-}
-
-.hero .dropdown p {
-    color: var(--primary);
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }

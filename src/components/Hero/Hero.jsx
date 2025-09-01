@@ -6,6 +6,7 @@ import { Element, Link } from 'react-scroll'
 import styles from './Hero.module.css'
 
 export const Hero = () => {
+    
     return (
 
         <>
@@ -21,11 +22,6 @@ export const Hero = () => {
                         <Link to="results" smooth={true} duration={100} spy={true} activeClass={styles['active']}><button>Resultados</button></Link>
                         <Link to="ranking" smooth={true} duration={100} spy={true} activeClass={styles['active']}><button>Clasificación</button></Link>
                     </div>
-                </div>
-
-                <div className={styles['dropdown']}>
-                    <span />
-                    <p>Deslizar abajo</p>
                 </div>
             </Element>
         </>

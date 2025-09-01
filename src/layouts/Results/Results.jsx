@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react'
 import { Element } from 'react-scroll'
 
 //Icons
-import decorator from '../../assets/icons/decorator.svg'
 import calendar from '../../assets/icons/calendar.svg'
 
 //Data
@@ -11,7 +10,6 @@ import data from '../../data/results.json'
 
 //CSS
 import styles from './Results.module.css'
-import decoratorStyle from '../../styles/decorator.module.css'
 
 export const Results = () => {
 
@@ -47,10 +45,6 @@ export const Results = () => {
 
                 <Matches currentData={currentData} />
             </div>
-
-            {/*<img src={decorator} alt="" className={decoratorStyle['decorator--top']} />
-            <img src={decorator} alt="" className={decoratorStyle['decorator--mid']} />*/}
-
         </Element>
 
     )

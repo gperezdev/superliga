@@ -13,7 +13,7 @@ export const Ranking = () => {
     return (
 
         <Element name='ranking' className={styles['ranking']}>
-            <div className={styles['wrapper']} data-aos="fade-left"  data-aos-easing="ease-in-out">
+            <div className={styles['wrapper']} data-aos="fade-left" data-aos-easing="ease-in-out">
                 <h1 className={styles['title']}>Clasificación</h1>
                 <PlayerTable data={data} />
             </div>
@@ -25,7 +25,13 @@ export const Ranking = () => {
 
 const PlayerTable = ({ data }) => {
 
-    const sortedData = [...data].sort((a, b) => b.points - a.points);
+    //Ordenamos tabla primero por nombre y luego por puntuación
+    const sortedData = [...data].sort((a, b) => {
+
+        if (b.points !== a.points) { return b.points - a.points }
+
+        return a.name.localeCompare(b.name)
+    })
 
     const checkPosition = (pos) => {
         if (pos <= 4) return styles['classified']

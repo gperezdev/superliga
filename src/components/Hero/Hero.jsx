@@ -6,7 +6,7 @@ import { Element, Link } from 'react-scroll'
 import styles from './Hero.module.css'
 
 export const Hero = () => {
-    
+
     return (
 
         <>
@@ -19,8 +19,8 @@ export const Hero = () => {
                         <p>de Martorell</p>
                     </div>
                     <div className={styles['buttons']}>
-                        <Link to="results" smooth={true} duration={100} spy={true} activeClass={styles['active']}><button>Resultados</button></Link>
-                        <Link to="ranking" smooth={true} duration={100} spy={true} activeClass={styles['active']}><button>Clasificación</button></Link>
+                        <Link to="results" smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']}><button>Resultados</button></Link>
+                        <Link to="ranking" smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']}><button>Clasificación</button></Link>
                     </div>
                 </div>
             </Element>

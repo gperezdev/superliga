@@ -31,9 +31,9 @@ export const Navbar = () => {
                 </div>
 
                 <div className={`${styles['content']} ${opened ? styles['navbar--opened'] : ''}`}>
-                    <Link to="home" smooth={true} duration={100} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Inicio</Link>
-                    <Link to="results" smooth={true} duration={100} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Resultados</Link>
-                    <Link to="ranking" smooth={true} duration={100} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Clasificación</Link>
+                    <Link to="home" smooth={true} duration={100} offset={0} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Inicio</Link>
+                    <Link to="results" smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Resultados</Link>
+                    <Link to="ranking" smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Clasificación</Link>
                 </div>
             </nav>
 

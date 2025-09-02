@@ -22,7 +22,7 @@ export const App = () => {
             {/* Inicio */}
             <Header />
 
-            <div>
+            <div style={{display: 'flex', flexFlow: 'column nowrap', gap: '40px'}}>
                 {/* Resultados */}
                 <Results />
 
@@ -30,7 +30,7 @@ export const App = () => {
                 <Ranking />
             </div>
 
-
+            <footer style={{padding: '3.5rem', textAlign: 'center', fontSize: '10px', opacity: '0.5'}}>Liga Supervila de Martorell ©</footer>
 
         </>
     )

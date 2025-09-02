@@ -16,7 +16,7 @@ export const Navbar = () => {
     return (
 
         <>
-            <nav data-aos="fade-down" className={styles['navbar']} style={{backdropFilter: opened ? 'none' : 'blur(20px)'}}>
+            <nav data-aos="fade-down" className={styles['navbar']} style={{ backdropFilter: opened ? 'none' : 'blur(20px)' }}>
 
                 <div className={styles['logo']}>
                     <img src={logo} alt="Logo" />
@@ -31,9 +31,9 @@ export const Navbar = () => {
                 </div>
 
                 <div className={`${styles['content']} ${opened ? styles['navbar--opened'] : ''}`}>
-                    <Link to="home" smooth={true} duration={100} spy={true} activeClass={styles['active']}>Inicio</Link>
-                    <Link to="results" smooth={true} duration={100} spy={true} activeClass={styles['active']}>Resultados</Link>
-                    <Link to="ranking" smooth={true} duration={100} spy={true} activeClass={styles['active']}>Clasificación</Link>
+                    <Link to="home" smooth={true} duration={100} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Inicio</Link>
+                    <Link to="results" smooth={true} duration={100} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Resultados</Link>
+                    <Link to="ranking" smooth={true} duration={100} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Clasificación</Link>
                 </div>
             </nav>
 

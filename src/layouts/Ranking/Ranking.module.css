@@ -18,32 +18,32 @@
 }
 
 .container {
-  padding: 3.5rem 0rem;
-  overflow-x: scroll;
+    padding: 3.5rem 0rem;
+    overflow-x: scroll;
 }
 
 .table {
-  width: 1000px;
-  border-collapse: collapse;
-  color: var(--primary);
+    width: 1000px;
+    border-collapse: collapse;
+    color: var(--primary);
 }
 
 .table th,
 .table td {
-  padding: 10px 0px;
-  text-align: center;
+    padding: 10px 0px;
+    text-align: center;
 }
 
 .table th {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .table tbody tr {
-  border-bottom: 1px solid #EAB86D20;
+    border-bottom: 1px solid #EAB86D20;
 }
 
 .table tbody tr:last-of-type {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 .classified {
@@ -73,7 +73,15 @@
     }
 
     .table {
-        width: 1000px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .table {
+        width: 382px;
     }
 
 }

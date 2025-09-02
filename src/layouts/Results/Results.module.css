@@ -171,4 +171,32 @@
     .matches .game {
         width: 1000px;
     }
+
+}
+
+@media (max-width: 500px) {
+
+    .matches .game {
+        width: 400px;
+    }
+
+    .matches .game .pair {
+        padding: 0rem;
+        gap: 50px;
+    }
+
+    .matches .game .pair .sets {
+        gap: 20px;
+        width: 150px;
+    }
+
+    .matches .game .pair .names {
+        flex-flow: column nowrap;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    .matches .game .pair .names p {
+        text-align: right !important;
+    }
 }

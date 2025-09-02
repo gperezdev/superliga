@@ -44,7 +44,7 @@ const PlayerTable = ({ data }) => {
         <div className={styles["container"]}>
             <table className={styles["table"]}>
                 <thead>
-                    <tr style={{ fontWeight: 'bold' }}>
+                    <tr>
                         <th>Pos.</th>
                         <th style={{ textAlign: 'left' }}>Jugador</th>
                         <th>PT</th>

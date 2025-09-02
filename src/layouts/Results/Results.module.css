@@ -199,4 +199,8 @@
     .matches .game .pair .names p {
         text-align: right !important;
     }
+
+    .header .title {
+        font-size: 36px;
+    }
 }

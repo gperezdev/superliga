@@ -22,11 +22,15 @@ export const App = () => {
             {/* Inicio */}
             <Header />
 
-            {/* Resultados */}
-            <Results />
+            <div>
+                {/* Resultados */}
+                <Results />
 
-            {/* Clasificación */}
-            <Ranking />
+                {/* Clasificación */}
+                <Ranking />
+            </div>
+
+
 
         </>
     )

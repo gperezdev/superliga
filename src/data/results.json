@@ -5,8 +5,8 @@
             "games": [
                 {
                     "pairs": [["David Díez","Gustavo Guerrero"],["Arnau Cristóbal","Joaquín Sánchez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[3,0,2,1,4],[6,6,6,6,3]],
+                    "points": [[0.4],[2.8]]
                 },
                 {
                     "pairs": [["Angel Pérez","Ayman Pereira"],["Fran Domínguez","Blai Cabrera"]],

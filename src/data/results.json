@@ -10,8 +10,8 @@
                 },
                 {
                     "pairs": [["Angel Pérez","Ayman Pereira"],["Fran Domínguez","Blai Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,6,6],[1,2,3,4,3]],
+                    "points": [[3.2],[0]]
                 },
                 {
                     "pairs": [["Josep Cabrera","Akos Szabo"],["Gerard Pérez","Carlos Blanch"]],

@@ -27,8 +27,13 @@ const PlayerTable = ({ data }) => {
 
     //Ordenamos tabla primero por nombre y luego por puntuación
     const sortedData = [...data].sort((a, b) => {
+        if (b.points !== a.points) {
+            return b.points - a.points
+        }
 
-        if (b.points !== a.points) { return b.points - a.points }
+        if (b.gamesPlayed !== a.gamesPlayed) {
+            return b.gamesPlayed - a.gamesPlayed
+        }
 
         return a.name.localeCompare(b.name)
     })

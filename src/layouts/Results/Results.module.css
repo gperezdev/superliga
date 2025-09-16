@@ -124,6 +124,11 @@
     justify-content: space-between;
 }
 
+.matches .game .pair .sets p{
+   width: 15px;
+}
+
+
 .dropdown {
     width: 200px;
     height: 400px;

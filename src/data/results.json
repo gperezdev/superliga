@@ -15,8 +15,8 @@
                 },
                 {
                     "pairs": [["Josep Cabrera","Akos Szabo"],["Gerard Pérez","Carlos Blanch"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[1,0,3,2,2],[6,6,6,6,4]],
+                    "points": [[0],[3.2]]
                 }
             ]
         },

@@ -37,8 +37,8 @@
                 },
                 {
                     "pairs": [["Blai Cabrera","Joaquín Sánchez"],["Angel Pérez","Fran Domínguez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,7,6,2,2],[3,5,4,6,3]],
+                    "points": [[2.4],[0.8]]
                 }
             ]
         },

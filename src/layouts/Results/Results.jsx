@@ -112,7 +112,7 @@ const Pair = ({ pair, results, points, opponentResults, opponentPoints }) => {
                 })}
             </div>
 
-            <p className={points > opponentPoints ? styles['winner'] : ''}>{points[0] ?? '-'}</p>
+            <p className={points > opponentPoints ? styles['winner'] : ''}>{points[0]?.toFixed(1) ?? '-'}</p>
 
         </div>
     )

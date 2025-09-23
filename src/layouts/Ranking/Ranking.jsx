@@ -64,7 +64,7 @@ const PlayerTable = ({ data }) => {
                         <tr key={index} className={checkPosition(index + 1)}>
                             <td >{index + 1}</td>
                             <td style={{ textAlign: 'left' }}>{player.name}</td>
-                            <td style={{ fontWeight: 'bold' }}>{player.points}</td>
+                            <td style={{ fontWeight: 'bold' }}>{player?.points?.toFixed(1)}</td>
                             <td>{player.gamesPlayed}</td>
                             <td>{player.wins}</td>
                             <td>{player.loses}</td>

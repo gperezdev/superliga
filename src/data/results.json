@@ -2,6 +2,7 @@
     "matches": [
         {
             "journey": "Jornada 1",
+            "dates": ["15/9/2025", "21/9/2025"],
             "games": [
                 {
                     "pairs": [["David Díez","Gustavo Guerrero"],["Arnau Cristóbal","Joaquín Sánchez"]],
@@ -22,6 +23,7 @@
         },
         {
             "journey": "Jornada 2",
+            "dates": ["22/9/2025", "28/9/2025"],
             "games": [
                 {
                     "pairs": [["Gerard Pérez","Ayman Pereira"],["David Díez","Carlos Blanch"]],
@@ -42,6 +44,7 @@
         },
         {
             "journey": "Jornada 3",
+            "dates": ["29/9/2025", "5/10/2025"],            
             "games": [
                 {
                     "pairs": [["Angel Pérez","Arnau Cristóbal"],["Akos Szabo","Joaquín Sánchez"]],
@@ -62,6 +65,7 @@
         },
         {
             "journey": "Jornada 4",
+            "dates": ["6/10/2025", "12/10/2025"],
             "games": [
                 {
                     "pairs": [["Josep Cabrera","David Díez"],["Gustavo Guerrero","Blai Cabrera"]],
@@ -82,6 +86,7 @@
         },
         {
             "journey": "Jornada 5",
+            "dates": ["13/10/2025", "19/10/2025"],
             "games": [
                 {
                     "pairs": [["Fran Domínguez","Ayman Pereira"],["Josep Cabrera","Arnau Cristóbal"]],
@@ -102,6 +107,7 @@
         },
         {
             "journey": "Jornada 6",
+            "dates": ["20/10/2025", "26/10/2025"],
             "games": [
                 {
                     "pairs": [["Gustavo Guerrero","Joaquín Sánchez"],["Gerard Pérez","Blai Cabrera"]],
@@ -122,6 +128,7 @@
         },
         {
             "journey": "Jornada 7",
+            "dates": ["27/10/2025", "02/11/2025"],
             "games": [
                 {
                     "pairs": [["Angel Pérez","Josep Cabrera"],["David Díez","Akos Szabo"]],
@@ -142,6 +149,7 @@
         },
         {
             "journey": "Jornada 8",
+            "dates": ["3/11/2025", "9/11/2025"],
             "games": [
                 {
                     "pairs": [["Carlos Blanch","Ayman Pereira"],["Angel Pérez","Gustavo Guerrero"]],
@@ -162,6 +170,7 @@
         },
         {
             "journey": "Jornada 9",
+            "dates": ["10/11/2025", "16/11/2025"],
             "games": [
                 {
                     "pairs": [["David Díez","Blai Cabrera"],["Fran Domínguez","Akos Szabo"]],
@@ -182,6 +191,7 @@
         },
         {
             "journey": "Jornada 10",
+            "dates": ["17/11/2025", "23/11/2025"],
             "games": [
                 {
                     "pairs": [["Angel Pérez","Joaquín Sánchez"],["Josep Cabrera","Gerard Pérez"]],
@@ -202,6 +212,7 @@
         },
         {
             "journey": "Jornada 11",
+            "dates": ["24/11/2025", "30/11/2025"],
             "games": [
                 {
                     "pairs": [["Arnau Cristóbal","Ayman Pereira"],["David Díez","Joaquín Sánchez"]],
@@ -222,6 +233,7 @@
         },
         {
             "journey": "Jornada 12",
+            "dates": ["1/12/2025", "7/12/2025"],
             "games": [
                 {
                     "pairs": [["Joaquín Sánchez","Akos Szabo"],["Arnau Cristóbal","Blai Cabrera"]],
@@ -242,6 +254,7 @@
         },
         {
             "journey": "Jornada 13",
+            "dates": ["8/12/2025", "14/12/2025"],
             "games": [
                 {
                     "pairs": [["Ayman Pereira","Fran Domínguez"],["Joaquín Sánchez","Gerard Pérez"]],
@@ -262,6 +275,7 @@
         },
         {
             "journey": "Jornada 14",
+            "dates": ["15/12/2025", "21/12/2025"],
             "games": [
                 {
                     "pairs": [["David Díez","Arnau Cristóbal"],["Gustavo Guerrero","Blai Cabrera"]],
@@ -282,6 +296,7 @@
         },
         {
             "journey": "Jornada 15",
+            "dates": ["5/1/2026", "11/1/2026"],
             "games": [
                 {
                     "pairs": [["Carlos Blanch","Joaquín Sánchez"],["Akos Szabo","Josep Cabrera"]],
@@ -302,6 +317,7 @@
         },
         {
             "journey": "Jornada 16",
+            "dates": ["12/1/2026", "18/1/2026"],
             "games": [
                 {
                     "pairs": [["Angel Pérez","Fran Domínguez"],["Carlos Blanch","Arnau Cristóbal"]],
@@ -322,6 +338,7 @@
         },
         {
             "journey": "Jornada 17",
+            "dates": ["19/1/2026", "25/1/2026"],
             "games": [
                 {
                     "pairs": [["Akos Szabo","Blai Cabrera"],["Ayman Pereira","Josep Cabrera"]],
@@ -342,6 +359,7 @@
         },
         {
             "journey": "Jornada 18",
+            "dates": ["26/1/2026", "1/2/2026"],
             "games": [
                 {
                     "pairs": [["David Díez","Carlos Blanch"],["Joaquín Sánchez","Gustavo Guerrero"]],
@@ -362,6 +380,7 @@
         },
         {
             "journey": "Jornada 19",
+            "dates": ["2/2/2026", "8/2/2026"],
             "games": [
                 {
                     "pairs": [["Gerard Pérez","Fran Domínguez"],["David Díez","Akos Szabo"]],
@@ -382,6 +401,7 @@
         },
         {
             "journey": "Jornada 20",
+            "dates": ["9/2/2026", "15/2/2026"],
             "games": [
                 {
                     "pairs": [["Joaquín Sánchez","Josep Cabrera"],["Angel Pérez","Gustavo Guerrero"]],
@@ -402,6 +422,7 @@
         },
         {
             "journey": "Jornada 21",
+            "dates": ["16/2/2026", "22/2/2026"],
             "games": [
                 {
                     "pairs": [["David Díez","Blai Cabrera"],["Carlos Blanch","Ayman Pereira"]],
@@ -422,6 +443,7 @@
         },
         {
             "journey": "Jornada 22",
+            "dates": ["23/2/2026", "1/3/2026"],
             "games": [
                 {
                     "pairs": [["Arnau Cristóbal","Fran Domínguez"],["Joaquín Sánchez","Blai Cabrera"]],
@@ -442,6 +464,7 @@
         },
         {
             "journey": "Jornada 23",
+            "dates": ["2/3/2026", "8/3/2026"],
             "games": [
                 {
                     "pairs": [["Angel Pérez","Ayman Pereira"],["Carlos Blanch","Gerard Pérez"]],
@@ -462,6 +485,7 @@
         },
         {
             "journey": "Jornada 24",
+            "dates": ["9/3/2026", "15/3/2026"],
             "games": [
                 {
                     "pairs": [["Akos Szabo","Arnau Cristóbal"],["Angel Pérez","Joaquín Sánchez"]],
@@ -482,6 +506,7 @@
         },
         {
             "journey": "Jornada 25",
+            "dates": ["16/3/2026", "22/3/2026"],
             "games": [
                 {
                     "pairs": [["Gustavo Guerrero","Carlos Blanch"],["David Díez","Gerard Pérez"]],
@@ -502,6 +527,7 @@
         },
         {
             "journey": "Jornada 26",
+            "dates": ["23/3/2026", "29/3/2026"],
             "games": [
                 {
                     "pairs": [["Fran Domínguez","Angel Pérez"],["Ayman Pereira","Blai Cabrera"]],
@@ -522,6 +548,7 @@
         },
         {
             "journey": "Jornada 27",
+            "dates": ["6/4/2026", "12/4/2026"],
             "games": [
                 {
                     "pairs": [["Josep Cabrera","Arnau Cristóbal"],["Fran Domínguez","Carlos Blanch"]],
@@ -542,6 +569,7 @@
         },
         {
             "journey": "Jornada 28",
+            "dates": ["13/4/2026", "19/4/2026"],
             "games": [
                 {
                     "pairs": [["Ayman Pereira","Gerard Pérez"],["Akos Szabo","Blai Cabrera"]],
@@ -562,6 +590,7 @@
         },
         {
             "journey": "Jornada 29",
+            "dates": ["20/4/2026", "26/4/2026"],
             "games": [
                 {
                     "pairs": [["Gustavo Guerrero","Fran Domínguez"],["Angel Pérez","David Díez"]],
@@ -582,6 +611,7 @@
         },
         {
             "journey": "Jornada 30",
+            "dates": ["27/4/2026", "3/5/2026"],
             "games": [
                 {
                     "pairs": [["Joaquín Sánchez","Arnau Cristóbal"],["Gustavo Guerrero","Ayman Pereira"]],
@@ -602,6 +632,7 @@
         },
         {
             "journey": "Jornada 31",
+            "dates": ["4/5/2026", "10/5/2026"],
             "games": [
                 {
                     "pairs": [["Angel Pérez","Blai Cabrera"],["Josep Cabrera","David Díez"]],
@@ -622,6 +653,7 @@
         },
         {
             "journey": "Jornada 32",
+            "dates": ["11/5/2026", "17/5/2026"],
             "games": [
                 {
                     "pairs": [["Gustavo Guerrero","Gerard Pérez"],["Fran Domínguez","Akos Szabo"]],
@@ -642,6 +674,7 @@
         },
         {
             "journey": "Jornada 33",
+            "dates": ["18/5/2026", "24/5/2026"],
             "games": [
                 {
                     "pairs": [["Carlos Blanch","Arnau Cristóbal"],["Angel Pérez","Gerard Pérez"]],

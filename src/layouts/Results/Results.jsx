@@ -1,6 +1,7 @@
 //Librerías
 import React, { useState, useEffect } from 'react'
 import { Element } from 'react-scroll'
+import moment from 'moment'
 
 //Icons
 import calendar from '../../assets/icons/calendar.svg'
@@ -16,9 +17,35 @@ export const Results = () => {
     const [dropdown, setDropdown] = useState(false)
     const [currentData, setCurrentData] = useState([])
 
+    
+    const parseDate = (dateStr) => { return moment(dateStr, "D/M/YYYY") }
 
     useEffect(() => {
-        setCurrentData(data.matches[0])
+        const today = moment()
+
+        let currentJourney = null
+        let lastDisputed = null
+
+        data.matches.forEach((round) => {
+            const start = parseDate(round.dates[0])
+            const end = parseDate(round.dates[1])
+
+            if (today.isBetween(start, end, "day", "[]")) {
+                currentJourney = round
+            }
+
+            if (today.isAfter(end)) {
+                lastDisputed = round
+            }
+        })
+
+        if (currentJourney) {
+            setCurrentData(currentJourney)
+        } else if (lastDisputed) {
+            setCurrentData(lastDisputed)
+        } else {
+            setCurrentData(data[0])
+        }
     }, [])
 
     useEffect(() => {

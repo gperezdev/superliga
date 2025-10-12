@@ -2,7 +2,7 @@
     { "name": "Gerard Pérez", "gamesPlayed": 5, "wins": 3, "loses": 2, "points": 9.6 },
     { "name": "David Díez", "gamesPlayed": 6, "wins": 4, "loses": 2, "points": 11 },
     { "name": "Angel Pérez", "gamesPlayed": 5, "wins": 3, "loses": 2, "points": 9.6 },
-    { "name": "Arnau Cristóbal", "gamesPlayed": 5, "wins": 4, "loses": 4, "points": 11.2 },
+    { "name": "Arnau Cristóbal", "gamesPlayed": 5, "wins": 4, "loses": 1, "points": 11.2 },
     { "name": "Josep Cabrera", "gamesPlayed": 6, "wins": 1, "loses": 5, "points": 3.6 },
     { "name": "Blai Cabrera", "gamesPlayed": 4, "wins": 1, "loses": 3, "points": 2.4 },
     { "name": "Akos Szabo", "gamesPlayed": 4, "wins": 1, "loses": 3, "points": 3.6 },

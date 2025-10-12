@@ -90,8 +90,8 @@
             "games": [
                 {
                     "pairs": [["Fran Domínguez","Ayman Pereira"],["Josep Cabrera","Arnau Cristóbal"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,6,2],[1,2,4,2,6]],
+                    "points": [[2.8],[0.4]]
                 },
                 {
                     "pairs": [["Gerard Pérez","Gustavo Guerrero"],["Angel Pérez","David Díez"]],

@@ -100,8 +100,8 @@
                 },
                 {
                     "pairs": [["Akos Szabo","Blai Cabrera"],["Joaquín Sánchez","Carlos Blanch"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[3,2,3,2,1],[6,6,6,6,6]],
+                    "points": [[0],[3.2]]
                 }
             ]
         },

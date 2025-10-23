@@ -111,8 +111,8 @@
             "games": [
                 {
                     "pairs": [["Gustavo Guerrero","Joaquín Sánchez"],["Gerard Pérez","Blai Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,3,6,6,1],[4,6,4,7,2]],
+                    "points": [[2],[1.6]]
                 },
                 {
                     "pairs": [["Arnau Cristóbal","Carlos Blanch"],["Fran Domínguez","Josep Cabrera"]],

@@ -137,8 +137,8 @@
                 },
                 {
                     "pairs": [["Blai Cabrera","Ayman Pereira"],["Gerard Pérez","Arnau Cristóbal"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[0,0,null,null,null],[6,6,null,null,null]],
+                    "points": [[0],[2]]
                 },
                 {
                     "pairs": [["Fran Domínguez","Joaquín Sánchez"],["Gustavo Guerrero","Carlos Blanch"]],

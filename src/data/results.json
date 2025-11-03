@@ -142,8 +142,8 @@
                 },
                 {
                     "pairs": [["Fran Domínguez","Joaquín Sánchez"],["Gustavo Guerrero","Carlos Blanch"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[3,3,6,1,1],[6,6,3,6,2]],
+                    "points": [[0.4],[2.6]]
                 }
             ]
         },

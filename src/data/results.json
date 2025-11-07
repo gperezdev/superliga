@@ -153,8 +153,8 @@
             "games": [
                 {
                     "pairs": [["Carlos Blanch","Ayman Pereira"],["Angel Pérez","Gustavo Guerrero"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,3,7,6,6],[0,6,6,3,2]],
+                    "points": [[2.8],[1]]
                 },
                 {
                     "pairs": [["Fran Domínguez","David Díez"],["Josep Cabrera","Joaquín Sánchez"]],

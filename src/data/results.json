@@ -163,8 +163,8 @@
                 },
                 {
                     "pairs": [["Gerard Pérez","Akos Szabo"],["Blai Cabrera","Arnau Cristóbal"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,6,4],[2,3,2,3,2]],
+                    "points": [[3.2],[0]]
                 }
             ]
         },

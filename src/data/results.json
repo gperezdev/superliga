@@ -174,8 +174,8 @@
             "games": [
                 {
                     "pairs": [["David Díez","Blai Cabrera"],["Fran Domínguez","Akos Szabo"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[7,6,6,2,null],[6,3,7,0,null]],
+                    "points": [[2.2],[0.4]]
                 },
                 {
                     "pairs": [["Gustavo Guerrero","Arnau Cristóbal"],["Angel Pérez","Carlos Blanch"]],

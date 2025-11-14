@@ -184,8 +184,8 @@
                 },
                 {
                     "pairs": [["Josep Cabrera","Ayman Pereira"],["Gerard Pérez","Joaquín Sánchez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[3,2,6,7,6],[6,6,2,6,1]],
+                    "points": [[1.2],[2]]
                 }
             ]
         },

@@ -200,8 +200,8 @@
                 },
                 {
                     "pairs": [["Akos Szabo","Ayman Pereira"],["Fran Domínguez","Gustavo Guerrero"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,7,6,6,null],[2,6,3,2,null]],
+                    "points": [[2.8],[0]]
                 },
                 {
                     "pairs": [["Blai Cabrera","Carlos Blanch"],["David Díez","Arnau Cristóbal"]],

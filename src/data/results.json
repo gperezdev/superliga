@@ -195,8 +195,8 @@
             "games": [
                 {
                     "pairs": [["Angel Pérez","Joaquín Sánchez"],["Josep Cabrera","Gerard Pérez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,7,4,7,null],[2,6,6,6,null]],
+                    "points": [[2.4],[0.4]]
                 },
                 {
                     "pairs": [["Akos Szabo","Ayman Pereira"],["Fran Domínguez","Gustavo Guerrero"]],

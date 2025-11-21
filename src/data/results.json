@@ -205,8 +205,8 @@
                 },
                 {
                     "pairs": [["Blai Cabrera","Carlos Blanch"],["David Díez","Arnau Cristóbal"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[2,6,4,5,null],[6,4,6,4,null]],
+                    "points": [[1.4],[2]]
                 }
             ]
         },

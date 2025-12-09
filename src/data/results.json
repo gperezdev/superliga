@@ -237,8 +237,8 @@
             "games": [
                 {
                     "pairs": [["Joaquín Sánchez","Akos Szabo"],["Arnau Cristóbal","Blai Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,6,6],[2,3,7,4,5]],
+                    "points": [[2.8],[0.4]]
                 },
                 {
                     "pairs": [["David Díez","Fran Domínguez"],["Angel Pérez","Josep Cabrera"]],

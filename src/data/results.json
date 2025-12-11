@@ -268,8 +268,8 @@
                 },
                 {
                     "pairs": [["Josep Cabrera","Blai Cabrera"],["David Díez","Angel Pérez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[3,6,1,2,2],[6,3,6,6,6]],
+                    "points": [[1],[2.8]]
                 }
             ]
         },

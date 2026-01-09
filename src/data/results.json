@@ -300,8 +300,8 @@
             "games": [
                 {
                     "pairs": [["Carlos Blanch","Joaquín Sánchez"],["Akos Szabo","Josep Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,6,6],[2,1,3,2,3]],
+                    "points": [[3.2],[0]]
                 },
                 {
                     "pairs": [["Blai Cabrera","Fran Domínguez"],["Gustavo Guerrero","Gerard Pérez"]],

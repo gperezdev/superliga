@@ -305,13 +305,13 @@
                 },
                 {
                     "pairs": [["Blai Cabrera","Fran Domínguez"],["Gustavo Guerrero","Gerard Pérez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,3,6,1,2],[7,6,4,6,1]],
+                    "points": [[0.6],[2.4]]
                 },
                 {
                     "pairs": [["David Díez","Ayman Pereira"],["Angel Pérez","Arnau Cristóbal"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,6,6],[2,3,4,2,1]],
+                    "points": [[3.2],[0]]
                 }
             ]
         },

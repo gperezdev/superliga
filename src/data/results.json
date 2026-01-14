@@ -326,8 +326,8 @@
                 },
                 {
                     "pairs": [["Ayman Pereira","Akos Szabo"],["David Díez","Joaquín Sánchez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,3,5],[7,0,7,6,0]],
+                    "points": [[1.4],[2.4]]
                 },
                 {
                     "pairs": [["Gustavo Guerrero","Josep Cabrera"],["Blai Cabrera","Gerard Pérez"]],

@@ -331,8 +331,8 @@
                 },
                 {
                     "pairs": [["Gustavo Guerrero","Josep Cabrera"],["Blai Cabrera","Gerard Pérez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[5,1,1,3,0],[7,6,6,6,6]],
+                    "points": [[0],[3.2]]
                 }
             ]
         },

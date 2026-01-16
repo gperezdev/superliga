@@ -321,8 +321,8 @@
             "games": [
                 {
                     "pairs": [["Angel Pérez","Fran Domínguez"],["Carlos Blanch","Arnau Cristóbal"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[1,2,1,0,3],[6,6,6,6,6]],
+                    "points": [[0],[3.2]]
                 },
                 {
                     "pairs": [["Ayman Pereira","Akos Szabo"],["David Díez","Joaquín Sánchez"]],

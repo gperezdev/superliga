@@ -373,8 +373,8 @@
                 },
                 {
                     "pairs": [["Angel Pérez","Blai Cabrera"],["Akos Szabo","Gerard Pérez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[5,1,7,3,1],[7,6,6,6,6]],
+                    "points": [[0.4],[2.8]]
                 }
             ]
         },

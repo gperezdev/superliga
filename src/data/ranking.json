@@ -1,14 +1,14 @@
 [
     { "name": "Gerard Pérez", "gamesPlayed": 18, "wins": 12, "loses": 6, "points": 37.4 },
-    { "name": "David Díez", "gamesPlayed": 17, "wins": 13, "loses": 4, "points": 37.2 },
+    { "name": "David Díez", "gamesPlayed": 18, "wins": 14, "loses": 4, "points": 40 },
     { "name": "Angel Pérez", "gamesPlayed": 18, "wins": 6, "loses": 12, "points": 20.8 },
-    { "name": "Arnau Cristóbal", "gamesPlayed": 17, "wins": 11, "loses": 6, "points": 31.4 },
-    { "name": "Josep Cabrera", "gamesPlayed": 17, "wins": 3, "loses": 14, "points": 12.2 },
+    { "name": "Arnau Cristóbal", "gamesPlayed": 18, "wins": 12, "loses": 6, "points": 34.6 },
+    { "name": "Josep Cabrera", "gamesPlayed": 18, "wins": 3, "loses": 15, "points": 12.2 },
     { "name": "Blai Cabrera", "gamesPlayed": 18, "wins": 3, "loses": 15, "points": 15.2 },
     { "name": "Akos Szabo", "gamesPlayed": 18, "wins": 8, "loses": 10, "points": 26.2 },
-    { "name": "Gustavo Guerrero", "gamesPlayed": 17, "wins": 4, "loses": 13, "points": 16.2 },
-    { "name": "Fran Domínguez", "gamesPlayed": 17, "wins": 8, "loses": 9, "points": 23.4 },
-    { "name": "Joaquín Sánchez", "gamesPlayed": 17, "wins": 12, "loses": 5, "points": 32 },
-    { "name": "Carlos Blanch", "gamesPlayed": 17, "wins": 10, "loses": 7, "points": 31.6 },
-    { "name": "Ayman Pereira", "gamesPlayed": 17, "wins": 14, "loses": 3, "points": 41 }
+    { "name": "Gustavo Guerrero", "gamesPlayed": 18, "wins": 5, "loses": 13, "points": 17.2 },
+    { "name": "Fran Domínguez", "gamesPlayed": 18, "wins": 8, "loses": 10, "points": 23.4 },
+    { "name": "Joaquín Sánchez", "gamesPlayed": 18, "wins": 12, "loses": 6, "points": 33 },
+    { "name": "Carlos Blanch", "gamesPlayed": 18, "wins": 11, "loses": 7, "points": 34.4 },
+    { "name": "Ayman Pereira", "gamesPlayed": 18, "wins": 15, "loses": 3, "points": 44.2 }
 ]

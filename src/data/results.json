@@ -389,8 +389,8 @@
                 },
                 {
                     "pairs": [["Angel Pérez","Joaquín Sánchez"],["Carlos Blanch","Blai Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[7,6,6,4,7],[5,4,4,6,6]],
+                    "points": [[2.8],[0.4]]
                 },
                 {
                     "pairs": [["Ayman Pereira","Gustavo Guerrero"],["Josep Cabrera","Arnau Cristóbal"]],

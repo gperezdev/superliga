@@ -415,8 +415,8 @@
                 },
                 {
                     "pairs": [["Carlos Blanch","Fran Domínguez"],["Ayman Pereira","Blai Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[7,5,5,6,null],[5,7,7,4,null]],
+                    "points": [[1.4],[2]]
                 }
             ]
         },

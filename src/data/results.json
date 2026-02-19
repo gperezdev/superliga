@@ -426,8 +426,8 @@
             "games": [
                 {
                     "pairs": [["David Díez","Blai Cabrera"],["Carlos Blanch","Ayman Pereira"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[0,1,1,2,4],[6,6,6,6,6]],
+                    "points": [[0],[3.2]]
                 },
                 {
                     "pairs": [["Gustavo Guerrero","Fran Domínguez"],["Angel Pérez","Akos Szabo"]],

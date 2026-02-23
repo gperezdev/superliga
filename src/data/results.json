@@ -436,8 +436,8 @@
                 },
                 {
                     "pairs": [["Josep Cabrera","Gerard Pérez"],["Joaquín Sánchez","Arnau Cristóbal"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,1,4,1,7],[1,6,6,6,5]],
+                    "points": [[1.4],[2.4]]
                 }
             ]
         },

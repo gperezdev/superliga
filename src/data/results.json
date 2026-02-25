@@ -457,8 +457,8 @@
                 },
                 {
                     "pairs": [["Angel Pérez","Ayman Pereira"],["Gustavo Guerrero","Akos Szabo"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[4,6,6,6,6],[6,4,2,1,4]],
+                    "points": [[2.8],[1]]
                 }
             ]
         },

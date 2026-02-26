@@ -394,8 +394,8 @@
                 },
                 {
                     "pairs": [["Ayman Pereira","Gustavo Guerrero"],["Josep Cabrera","Arnau Cristóbal"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,0,6,6],[3,7,6,1,1]],
+                    "points": [[1.8],[2]]
                 }
             ]
         },

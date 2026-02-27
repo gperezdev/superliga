@@ -452,8 +452,8 @@
                 },
                 {
                     "pairs": [["Carlos Blanch","Gerard Pérez"],["David Díez","Josep Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,6,3],[1,1,3,3,4]],
+                    "points": [[2.8],[0.4]]
                 },
                 {
                     "pairs": [["Angel Pérez","Ayman Pereira"],["Gustavo Guerrero","Akos Szabo"]],

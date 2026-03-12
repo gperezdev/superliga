@@ -473,8 +473,8 @@
                 },
                 {
                     "pairs": [["Gustavo Guerrero","Arnau Cristóbal"],["Josep Cabrera","Blai Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,6,6],[0,3,2,2,2]],
+                    "points": [[3.2],[0]]
                 },
                 {
                     "pairs": [["Fran Domínguez","David Díez"],["Akos Szabo","Joaquín Sánchez"]],

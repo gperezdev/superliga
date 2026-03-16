@@ -447,8 +447,8 @@
             "games": [
                 {
                     "pairs": [["Arnau Cristóbal","Fran Domínguez"],["Joaquín Sánchez","Blai Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[4,6,6,6,null],[6,2,2,7,null]],
+                    "points": [[2],[1.4]]
                 },
                 {
                     "pairs": [["Carlos Blanch","Gerard Pérez"],["David Díez","Josep Cabrera"]],

@@ -552,13 +552,13 @@
             "games": [
                 {
                     "pairs": [["Josep Cabrera","Arnau Cristóbal"],["Fran Domínguez","Carlos Blanch"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,null,null,null],[0,0,null,null,null]],
+                    "points": [[2],[0]]
                 },
                 {
                     "pairs": [["Akos Szabo","Ayman Pereira"],["Gustavo Guerrero","Angel Pérez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,6,6],[1,2,3,3,7]],
+                    "points": [[2.8],[0.4]]
                 },
                 {
                     "pairs": [["David Díez","Blai Cabrera"],["Gerard Pérez","Joaquín Sánchez"]],

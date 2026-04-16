@@ -573,8 +573,8 @@
             "games": [
                 {
                     "pairs": [["Ayman Pereira","Gerard Pérez"],["Akos Szabo","Blai Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,3,2],[4,2,1,6,4]],
+                    "points": [[2.4],[0.8]]
                 },
                 {
                     "pairs": [["Carlos Blanch","Joaquín Sánchez"],["Josep Cabrera","Fran Domínguez"]],

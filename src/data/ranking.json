@@ -1,14 +1,14 @@
 [
-    { "name": "Gerard Pérez", "gamesPlayed": 28, "wins": 21, "loses": 7, "points": 62.4 },
-    { "name": "David Díez", "gamesPlayed": 28, "wins": 18, "loses": 10, "points": 53.6 },
-    { "name": "Angel Pérez", "gamesPlayed": 28, "wins": 8, "loses": 20, "points": 35.4 },
-    { "name": "Arnau Cristóbal", "gamesPlayed": 28, "wins": 20, "loses": 8, "points": 54.6 },
-    { "name": "Josep Cabrera", "gamesPlayed": 27, "wins": 6, "loses": 21, "points": 22.3 },
-    { "name": "Blai Cabrera", "gamesPlayed": 28, "wins": 6, "loses": 22, "points": 25.8 },
-    { "name": "Akos Szabo", "gamesPlayed": 28, "wins": 12, "loses": 16, "points": 41.8 },
-    { "name": "Gustavo Guerrero", "gamesPlayed": 28, "wins": 9, "loses": 19, "points": 32.4 },
-    { "name": "Fran Domínguez", "gamesPlayed": 27, "wins": 13, "loses": 14, "points": 40.2 },
-    { "name": "Joaquín Sánchez", "gamesPlayed": 27, "wins": 16, "loses": 11, "points": 48.6 },
-    { "name": "Carlos Blanch", "gamesPlayed": 27, "wins": 14, "loses": 13, "points": 46.2 },
-    { "name": "Ayman Pereira", "gamesPlayed": 28, "wins": 23, "loses": 5, "points": 66.4 }
+    { "name": "Gerard Pérez", "gamesPlayed": 29, "wins": 21, "loses": 8, "points": 62.4 },
+    { "name": "David Díez", "gamesPlayed": 29, "wins": 19, "loses": 10, "points": 56 },
+    { "name": "Angel Pérez", "gamesPlayed": 29, "wins": 9, "loses": 20, "points": 37.8 },
+    { "name": "Arnau Cristóbal", "gamesPlayed": 29, "wins": 21, "loses": 8, "points": 56.9 },
+    { "name": "Josep Cabrera", "gamesPlayed": 28, "wins": 6, "loses": 22, "points": 22.3 },
+    { "name": "Blai Cabrera", "gamesPlayed": 29, "wins": 7, "loses": 22, "points": 28.1 },
+    { "name": "Akos Szabo", "gamesPlayed": 29, "wins": 12, "loses": 17, "points": 42.8 },
+    { "name": "Gustavo Guerrero", "gamesPlayed": 29, "wins": 9, "loses": 20, "points": 34 },
+    { "name": "Fran Domínguez", "gamesPlayed": 28, "wins": 13, "loses": 15, "points": 41 },
+    { "name": "Joaquín Sánchez", "gamesPlayed": 28, "wins": 17, "loses": 11, "points": 51.8 },
+    { "name": "Carlos Blanch", "gamesPlayed": 28, "wins": 14, "loses": 14, "points": 47.2 },
+    { "name": "Ayman Pereira", "gamesPlayed": 29, "wins": 24, "loses": 5, "points": 69.6 }
 ]

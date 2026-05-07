@@ -636,8 +636,8 @@
             "games": [
                 {
                     "pairs": [["Angel Pérez","Blai Cabrera"],["Josep Cabrera","David Díez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[3,4,4,2,null],[6,6,6,5,null]],
+                    "points": [[0],[2.8]]
                 },
                 {
                     "pairs": [["Ayman Pereira","Carlos Blanch"],["Gustavo Guerrero","Joaquín Sánchez"]],

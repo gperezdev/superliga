@@ -646,8 +646,8 @@
                 },
                 {
                     "pairs": [["Fran Domínguez","Arnau Cristóbal"],["Akos Szabo","Gerard Pérez"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,5,6,6,null],[4,7,1,1,null]],
+                    "points": [[2.4],[1]]
                 }
             ]
         },

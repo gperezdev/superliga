@@ -657,8 +657,8 @@
             "games": [
                 {
                     "pairs": [["Gustavo Guerrero","Gerard Pérez"],["Fran Domínguez","Akos Szabo"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,2,2,6],[3,3,6,6,0]],
+                    "points": [[2.4],[0.8]]
                 },
                 {
                     "pairs": [["David Díez","Arnau Cristóbal"],["Josep Cabrera","Ayman Pereira"]],

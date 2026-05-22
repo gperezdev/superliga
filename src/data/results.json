@@ -683,8 +683,8 @@
                 },
                 {
                     "pairs": [["Fran Domínguez","Joaquín Sánchez"],["Gustavo Guerrero","Blai Cabrera"]],
-                    "results": [[null,null,null,null,null],[null,null,null,null,null]],
-                    "points": [[null],[null]]
+                    "results": [[6,6,6,4,6],[4,3,1,6,4]],
+                    "points": [[2.8],[0.4]]
                 },
                 {
                     "pairs": [["Josep Cabrera","Akos Szabo"],["David Díez","Ayman Pereira"]],

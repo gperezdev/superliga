@@ -72,6 +72,7 @@
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
+    width: 300px;
 }
 
 .hero .header .buttons a:nth-child(1) {
@@ -87,4 +88,13 @@
 .hero .header .buttons button:hover {
     color: var(--black);
     background-color: var(--primary);
+}
+
+
+@media (max-width: 500px) {
+
+    .header {
+        padding: 10rem 1.5rem !important;
+    }
+
 }

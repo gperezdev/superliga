@@ -218,6 +218,11 @@
 
 @media (max-width: 500px) {
 
+    .results {
+        padding: 1.5rem !important;
+    }
+
+
     .matches .game {
         width: 100%;
         min-width: fit-content;

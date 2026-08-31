@@ -124,3 +124,12 @@
 .burger--active span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -9.5px);
 }
+
+
+@media (max-width: 500px) {
+
+    .navbar {
+        padding: 1.5rem;
+    }
+
+}

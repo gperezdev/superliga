@@ -29,7 +29,7 @@ export const App = () => {
 
             </div>
 
-            <footer style={{ padding: '2rem', textAlign: 'center', fontSize: '10px', color: 'var(--primary)', fontFamily: 'var(--tag)' }}>Liga Supervila de Martorell ©</footer>
+            <footer style={{ padding: '1.5rem', textAlign: 'center', fontSize: '10px', color: 'var(--primary)', fontFamily: 'var(--tag)' }}>Liga Supervila de Martorell ©</footer>
 
         </>
     )

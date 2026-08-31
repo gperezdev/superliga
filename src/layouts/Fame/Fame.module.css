@@ -90,6 +90,10 @@
 
 @media (max-width: 500px) {
 
+    .fame {
+        padding: 1.5rem !important;
+    }
+
     .container {
         padding: 20px 0px;
     }

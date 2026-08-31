@@ -1,5 +1,4 @@
 //Librerías
-import React from 'react'
 import { Element, Link } from 'react-scroll'
 
 //CSS
@@ -12,15 +11,16 @@ export const Hero = () => {
         <>
 
             <Element name='home' className={styles['hero']}>
-                <div className={styles['header']} data-aos="fade-right" data-aos-easing="ease-in-out">
+                <div className={styles['header']}>
                     <div className={styles['title']}>
-                        <p>Liga</p>
-                        <p>Supervila</p>
-                        <p>de Martorell</p>
+                        <div style={{ backgroundColor: '#CEF17B10', backdropFilter: 'blur(10px)', padding: '10px 20px' }}>
+                            <p>TEMPORADA 26-27</p>
+                        </div>
+                        <p>Supervila.</p>
                     </div>
                     <div className={styles['buttons']}>
-                        <Link to="results" smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']}><button>Resultados</button></Link>
-                        <Link to="ranking" smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']}><button>Clasificación</button></Link>
+                        <Link to="results" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']}><button>Resultados</button></Link>
+                        <Link to="ranking" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']}><button>Clasificación</button></Link>
                     </div>
                 </div>
             </Element>

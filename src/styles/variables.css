@@ -7,11 +7,24 @@
     font-family:"Montserrat";
     src: url("../assets/font/Montserrat.ttf") format("truetype");
 }
+@font-face {
+    font-family:"Jetbrains Mono";
+    src: url("../assets/font/JetBrainsMono.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Oswald";
+    src: url("../assets/font/Oswald.ttf") format("truetype");
+}
+@font-face {
+    font-family:"Hanken Grotesk";
+    src: url("../assets/font/HankenGrotesk.ttf") format("truetype");
+}
 
 :root {
-    --primary: #EAB86D;
-    --black: #161616;
+    --primary: #CEF17B;
+    --black: #212121;
     --white: #F5F5F5;
-    --titles: "League Spartan";
-    --text: "Montserrat";
+    --titles: "Oswald";
+    --tag: 'Jetbrains Mono';
 }

@@ -2,696 +2,597 @@
     "matches": [
         {
             "journey": "Jornada 1",
-            "dates": ["15/9/2025", "21/9/2025"],
+            "dates": ["7/9/2026", "13/9/2026"],
             "games": [
                 {
-                    "pairs": [["David Díez","Gustavo Guerrero"],["Arnau Cristóbal","Joaquín Sánchez"]],
-                    "results": [[3,0,2,1,4],[6,6,6,6,3]],
-                    "points": [[0.4],[2.8]]
+                    "pairs": [["Arnau Cristóbal","Josep Cabrera"],["Gerard Pérez","Ángel Pérez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Angel Pérez","Ayman Pereira"],["Fran Domínguez","Blai Cabrera"]],
-                    "results": [[6,6,6,6,6],[1,2,3,4,3]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["David Díez","Roberto De la Gala"],["Fran Domínguez","Gustavo Guerrero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Josep Cabrera","Akos Szabo"],["Gerard Pérez","Carlos Blanch"]],
-                    "results": [[1,0,3,2,2],[6,6,6,6,4]],
-                    "points": [[0],[3.2]]
+                    "pairs": [["Joaquín Sánchez","Akos Szabo"],["Albert Doblas","Martín Caballero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 2",
-            "dates": ["22/9/2025", "28/9/2025"],
+            "dates": ["14/9/2026", "20/9/2026"],
             "games": [
                 {
-                    "pairs": [["Gerard Pérez","Ayman Pereira"],["David Díez","Carlos Blanch"]],
-                    "results": [[5,6,7,6,1],[7,2,5,4,0]],
-                    "points": [[2.6],[1]]
+                    "pairs": [["Joaquín Sánchez","Gustavo Guerrero"],["Akos Szabo","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Akos Szabo","Arnau Cristóbal"],["Josep Cabrera","Gustavo Guerrero"]],
-                    "results": [[6,6,6,6,4],[2,2,1,4,3]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["David Díez","Albert Doblas"],["Arnau Cristóbal","Roberto De la Gala"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Blai Cabrera","Joaquín Sánchez"],["Angel Pérez","Fran Domínguez"]],
-                    "results": [[6,7,6,2,2],[3,5,4,6,3]],
-                    "points": [[2.4],[0.8]]
+                    "pairs": [["Fran Domínguez","Martín Caballero"],["Gerard Pérez","Ángel Pérez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 3",
-            "dates": ["29/9/2025", "5/10/2025"],            
+            "dates": ["21/9/2026", "27/9/2026"],            
             "games": [
                 {
-                    "pairs": [["Angel Pérez","Arnau Cristóbal"],["Akos Szabo","Joaquín Sánchez"]],
-                    "results": [[6,7,7,6,1],[3,5,6,2,6]],
-                    "points": [[2.8],[0.4]]
+                    "pairs": [["Arnau Cristóbal","Albert Doblas"],["Gerard Pérez","Martín Caballero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Fran Domínguez","Carlos Blanch"],["Gerard Pérez","David Díez"]],
-                    "results": [[2,2,6,6,null],[6,6,4,1,null]],
-                    "points": [[0.8],[2]]
+                    "pairs": [["Joaquín Sánchez","Josep Cabrera"],["David Díez","Gustavo Guerrero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Gustavo Guerrero","Ayman Pereira"],["Josep Cabrera","Blai Cabrera"]],
-                    "results": [[6,6,6,6,6],[1,2,3,3,4]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["Akos Szabo","Ángel Pérez"],["Roberto De la Gala","Fran Domínguez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 4",
-            "dates": ["6/10/2025", "12/10/2025"],
+            "dates": ["28/9/2026", "4/10/2026"],
             "games": [
                 {
-                    "pairs": [["Josep Cabrera","David Díez"],["Gustavo Guerrero","Blai Cabrera"]],
-                    "results": [[7,7,6,5,null],[6,5,2,1,null]],
-                    "points": [[2.8],[0]]
+                    "pairs": [["Albert Doblas","Josep Cabrera"],["Fran Domínguez","Ángel Pérez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Joaquín Sánchez","Ayman Pereira"],["Akos Szabo","Carlos Blanch"]],
-                    "results": [[6,6,7,6,3],[3,4,6,0,1]],
-                    "points": [[3.0],[0]]
+                    "pairs": [["Gustavo Guerrero","Martín Caballero"],["Arnau Cristóbal","David Díez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Angel Pérez","Gerard Pérez"],["Fran Domínguez","Arnau Cristóbal"]],
-                    "results": [[4,6,4,null,null],[6,7,3,null,null]],
-                    "points": [[0.4],[2]]
+                    "pairs": [["Roberto De la Gala","Akos Szabo"],["Gerard Pérez","Joaquín Sánchez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 5",
-            "dates": ["13/10/2025", "19/10/2025"],
+            "dates": ["5/10/2026", "11/10/2026"],
             "games": [
                 {
-                    "pairs": [["Fran Domínguez","Ayman Pereira"],["Josep Cabrera","Arnau Cristóbal"]],
-                    "results": [[6,6,6,6,2],[1,2,4,2,6]],
-                    "points": [[2.8],[0.4]]
+                    "pairs": [["Gerard Pérez","Ángel Pérez"],["David Díez","Fran Domínguez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Gerard Pérez","Gustavo Guerrero"],["Angel Pérez","David Díez"]],
-                    "results": [[2,6,1,3,5],[6,4,6,6,0]],
-                    "points": [[1.4],[2.4]]
+                    "pairs": [["Joaquín Sánchez","Roberto De la Gala"],["Gustavo Guerrero","Martín Caballero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Akos Szabo","Blai Cabrera"],["Joaquín Sánchez","Carlos Blanch"]],
-                    "results": [[3,2,3,2,1],[6,6,6,6,6]],
-                    "points": [[0],[3.2]]
+                    "pairs": [["Albert Doblas","Akos Szabo"],["Arnau Cristóbal","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 6",
-            "dates": ["20/10/2025", "26/10/2025"],
+            "dates": ["12/10/2026", "18/10/2026"],
             "games": [
                 {
-                    "pairs": [["Gustavo Guerrero","Joaquín Sánchez"],["Gerard Pérez","Blai Cabrera"]],
-                    "results": [[6,3,6,6,1],[4,6,4,7,2]],
-                    "points": [[2],[1.6]]
+                    "pairs": [["Gerard Pérez","Fran Domínguez"],["Albert Doblas","Akos Szabo"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Arnau Cristóbal","Carlos Blanch"],["Fran Domínguez","Josep Cabrera"]],
-                    "results": [[6,6,6,6,6],[1,1,0,2,0]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["Joaquín Sánchez","Ángel Pérez"],["David Díez","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["David Díez","Ayman Pereira"],["Angel Pérez","Akos Szabo"]],
-                    "results": [[6,6,6,5,6],[2,2,3,7,0]],
-                    "points": [[2.8],[0.4]]
+                    "pairs": [["Arnau Cristóbal","Gustavo Guerrero"],["Roberto De la Gala","Martín Caballero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 7",
-            "dates": ["27/10/2025", "02/11/2025"],
+            "dates": ["19/10/2026", "25/10/2026"],
             "games": [
                 {
-                    "pairs": [["Angel Pérez","Josep Cabrera"],["David Díez","Akos Szabo"]],
-                    "results": [[2,3,4,3,4],[6,6,6,6,6]],
-                    "points": [[0],[3.2]]
+                    "pairs": [["Arnau Cristóbal","Joaquín Sánchez"],["Fran Domínguez","Ángel Pérez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Blai Cabrera","Ayman Pereira"],["Gerard Pérez","Arnau Cristóbal"]],
-                    "results": [[0,0,null,null,null],[6,6,null,null,null]],
-                    "points": [[0],[2]]
+                    "pairs": [["Akos Szabo","Gustavo Guerrero"],["Gerard Pérez","David Díez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Fran Domínguez","Joaquín Sánchez"],["Gustavo Guerrero","Carlos Blanch"]],
-                    "results": [[3,3,6,1,1],[6,6,3,6,2]],
-                    "points": [[0.4],[2.6]]
+                    "pairs": [["Albert Doblas","Roberto De la Gala"],["Martín Caballero","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 8",
-            "dates": ["3/11/2025", "9/11/2025"],
+            "dates": ["26/10/2026", "1/11/2026"],
             "games": [
                 {
-                    "pairs": [["Carlos Blanch","Ayman Pereira"],["Angel Pérez","Gustavo Guerrero"]],
-                    "results": [[6,3,7,6,6],[0,6,6,3,2]],
-                    "points": [[2.8],[1]]
+                    "pairs": [["Gerard Pérez","Josep Cabrera"],["Arnau Cristóbal","Albert Doblas"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Fran Domínguez","David Díez"],["Josep Cabrera","Joaquín Sánchez"]],
-                    "results": [[6,6,6,6,null],[2,3,7,5,null]],
-                    "points": [[2.4],[0.4]]
+                    "pairs": [["Roberto De la Gala","Ángel Pérez"],["David Díez","Akos Szabo"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Gerard Pérez","Akos Szabo"],["Blai Cabrera","Arnau Cristóbal"]],
-                    "results": [[6,6,6,6,4],[2,3,2,3,2]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["Gustavo Guerrero","Martín Caballero"],["Joaquín Sánchez","Fran Domínguez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 9",
-            "dates": ["10/11/2025", "16/11/2025"],
+            "dates": ["2/11/2026", "8/11/2026"],
             "games": [
                 {
-                    "pairs": [["David Díez","Blai Cabrera"],["Fran Domínguez","Akos Szabo"]],
-                    "results": [[7,6,6,2,null],[6,3,7,0,null]],
-                    "points": [[2.2],[0.4]]
+                    "pairs": [["Fran Domínguez","Gustavo Guerrero"],["Akos Szabo","Ángel Pérez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Gustavo Guerrero","Arnau Cristóbal"],["Angel Pérez","Carlos Blanch"]],
-                    "results": [[6,2,1,null,null],[7,6,3,null,null]],
-                    "points": [[0],[2.2]]
+                    "pairs": [["Gerard Pérez","Albert Doblas"],["Joaquín Sánchez","Martín Caballero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Josep Cabrera","Ayman Pereira"],["Gerard Pérez","Joaquín Sánchez"]],
-                    "results": [[3,2,6,7,6],[6,6,2,6,1]],
-                    "points": [[1.2],[2]]
+                    "pairs": [["Arnau Cristóbal","David Díez"],["Roberto De la Gala","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 10",
-            "dates": ["17/11/2025", "23/11/2025"],
+            "dates": ["9/11/2026", "15/11/2026"],
             "games": [
                 {
-                    "pairs": [["Angel Pérez","Joaquín Sánchez"],["Josep Cabrera","Gerard Pérez"]],
-                    "results": [[6,7,4,7,null],[2,6,6,6,null]],
-                    "points": [[2.4],[0.4]]
+                    "pairs": [["David Díez","Martín Caballero"],["Akos Szabo","Fran Domínguez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Akos Szabo","Ayman Pereira"],["Fran Domínguez","Gustavo Guerrero"]],
-                    "results": [[6,7,6,6,null],[2,6,3,2,null]],
-                    "points": [[2.8],[0]]
+                    "pairs": [["Arnau Cristóbal","Albert Doblas"],["Ángel Pérez","Gustavo Guerrero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Blai Cabrera","Carlos Blanch"],["David Díez","Arnau Cristóbal"]],
-                    "results": [[2,6,4,5,null],[6,4,6,4,null]],
-                    "points": [[1.4],[2]]
+                    "pairs": [["Joaquín Sánchez","Roberto De la Gala"],["Gerard Pérez","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 11",
-            "dates": ["24/11/2025", "30/11/2025"],
+            "dates": ["16/11/2026", "22/11/2026"],
             "games": [
                 {
-                    "pairs": [["Arnau Cristóbal","Ayman Pereira"],["David Díez","Joaquín Sánchez"]],
-                    "results": [[6,7,6,3,6],[0,6,2,6,2]],
-                    "points": [[2.8],[0.4]]
+                    "pairs": [["Joaquín Sánchez","Martín Caballero"],["Arnau Cristóbal","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Josep Cabrera","Carlos Blanch"],["Angel Pérez","Blai Cabrera"]],    
-                    "results": [[6,2,6,6,6],[0,6,2,1,2]],
-                    "points": [[2.8],[1]]
+                    "pairs": [["Fran Domínguez","Ángel Pérez"],["Gerard Pérez","Roberto De la Gala"]],    
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Fran Domínguez","Gerard Pérez"],["Akos Szabo","Gustavo Guerrero"]],
-                    "results": [[6,4,6,6,3],[2,6,3,3,2]],
-                    "points": [[2.8],[1]]
+                    "pairs": [["David Díez","Akos Szabo"],["Albert Doblas","Gustavo Guerrero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 12",
-            "dates": ["1/12/2025", "7/12/2025"],
+            "dates": ["1/2/2027", "7/12/2026"],
             "games": [
                 {
-                    "pairs": [["Joaquín Sánchez","Akos Szabo"],["Arnau Cristóbal","Blai Cabrera"]],
-                    "results": [[6,6,6,6,6],[2,3,7,4,5]],
-                    "points": [[2.8],[0.4]]
+                    "pairs": [["Roberto De la Gala","Martín Caballero"],["Ángel Pérez","Gustavo Guerrero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["David Díez","Fran Domínguez"],["Angel Pérez","Josep Cabrera"]],
-                    "results": [[6,6,6,6,6],[3,2,0,1,1]],
-                    "points": [[3.2],[null]]
+                    "pairs": [["David Díez","Albert Doblas"],["Gerard Pérez","Joaquín Sánchez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Carlos Blanch","Gustavo Guerrero"],["Ayman Pereira","Gerard Pérez"]],
-                    "results": [[2,4,2,7,3],[6,6,6,6,2]],
-                    "points": [[0.8],[2.4]]
+                    "pairs": [["Arnau Cristóbal","Josep Cabrera"],["Akos Szabo","Fran Domínguez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 13",
-            "dates": ["8/12/2025", "14/12/2025"],
+            "dates": ["8/2/2027", "14/2/2027"],
             "games": [
                 {
-                    "pairs": [["Ayman Pereira","Fran Domínguez"],["Joaquín Sánchez","Gerard Pérez"]],
-                    "results": [[7,6,2,null,null],[5,2,3,null,null]],
-                    "points": [[2],[0.4]]
+                    "pairs": [["Arnau Cristóbal","Joaquín Sánchez"],["Albert Doblas","Akos Szabo"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Gustavo Guerrero","Arnau Cristóbal"],["Carlos Blanch","Akos Szabo"]],
-                    "results": [[6,4,4,1,null],[7,6,6,0,null]],
-                    "points": [[0.2],[2.4]]
+                    "pairs": [["Fran Domínguez","Martín Caballero"],["Roberto De la Gala","Gustavo Guerrero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Josep Cabrera","Blai Cabrera"],["David Díez","Angel Pérez"]],
-                    "results": [[3,6,1,2,2],[6,3,6,6,6]],
-                    "points": [[1],[2.8]]
+                    "pairs": [["Gerard Pérez","Josep Cabrera"],["David Díez","Angel Pérez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 14",
-            "dates": ["15/12/2025", "21/12/2025"],
+            "dates": ["15/2/2027", "21/2/2027"],
             "games": [
                 {
-                    "pairs": [["David Díez","Arnau Cristóbal"],["Gustavo Guerrero","Blai Cabrera"]],
-                    "results": [[6,6,6,6,6],[2,1,0,3,4]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["Gerard Pérez","Gustavo Guerrero"],["Joaquín Sánchez","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Angel Pérez","Gerard Pérez"],["Ayman Pereira","Joaquín Sánchez"]],
-                    "results": [[7,4,5,3,5],[6,6,7,6,7]],
-                    "points": [[1],[2.8]]
+                    "pairs": [["David Díez","Fran Domínguez"],["Arnau Cristóbal","Martín Caballero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Akos Szabo","Fran Domínguez"],["Carlos Blanch","Josep Cabrera"]],
-                    "results": [[6,7,3,6,3],[4,6,6,0,2]],
-                    "points": [[2.8],[0.4]]
+                    "pairs": [["Roberto De la Gala","Ángel Pérez"],["Albert Doblas","Akos Szabo"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 15",
-            "dates": ["5/1/2026", "11/1/2026"],
+            "dates": ["22/2/2027", "28/1/2027"],
             "games": [
                 {
-                    "pairs": [["Carlos Blanch","Joaquín Sánchez"],["Akos Szabo","Josep Cabrera"]],
-                    "results": [[6,6,6,6,6],[2,1,3,2,3]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["Arnau Cristóbal","Ángel Pérez"],["Albert Doblas","Joaquín Sánchez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Blai Cabrera","Fran Domínguez"],["Gustavo Guerrero","Gerard Pérez"]],
-                    "results": [[6,3,6,1,2],[7,6,4,6,1]],
-                    "points": [[0.6],[2.4]]
+                    "pairs": [["Gerard Pérez","Gustavo Guerrero"],["Roberto De la Gala","Martín Caballero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["David Díez","Ayman Pereira"],["Angel Pérez","Arnau Cristóbal"]],
-                    "results": [[6,6,6,6,6],[2,3,4,2,1]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["Akos Szabo","Josep Cabrera"],["David Díez","Fran Domínguez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 16",
-            "dates": ["12/1/2026", "18/1/2026"],
+            "dates": ["1/3/2027", "7/3/2027"],
             "games": [
                 {
-                    "pairs": [["Angel Pérez","Fran Domínguez"],["Carlos Blanch","Arnau Cristóbal"]],
-                    "results": [[1,2,1,0,3],[6,6,6,6,6]],
-                    "points": [[0],[3.2]]
+                    "pairs": [["Angel Pérez","Martín Caballero"],["Gustavo Guerrero","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Ayman Pereira","Akos Szabo"],["David Díez","Joaquín Sánchez"]],
-                    "results": [[6,6,6,3,5],[7,0,7,6,0]],
-                    "points": [[1.4],[2.4]]
+                    "pairs": [["David Díez","Roberto De la Gala"],["Albert Doblas","Joaquín Sánchez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Gustavo Guerrero","Josep Cabrera"],["Blai Cabrera","Gerard Pérez"]],
-                    "results": [[5,1,1,3,0],[7,6,6,6,6]],
-                    "points": [[0],[3.2]]
+                    "pairs": [["Akos Szabo","Fran Domínguez"],["Arnau Cristóbal","Gerard Pérez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 17",
-            "dates": ["19/1/2026", "25/1/2026"],
+            "dates": ["8/3/2027", "14/3/2027"],
             "games": [
                 {
-                    "pairs": [["Akos Szabo","Blai Cabrera"],["Ayman Pereira","Josep Cabrera"]],
-                    "results": [[4,7,3,3,1],[6,6,6,6,6]],
-                    "points": [[1],[2.8]]
+                    "pairs": [["Fran Domínguez","Gustavo Guerrero"],["Gerard Pérez","Martín Caballero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Arnau Cristóbal","Gerard Pérez"],["Angel Pérez","Carlos Blanch"]],
-                    "results": [[6,6,6,6,6],[4,4,4,5,4]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["Akos Szabo","Ángel Pérez"],["David Díez","Albert Doblas"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Joaquín Sánchez","Fran Domínguez"],["David Díez","Gustavo Guerrero"]],
-                    "results": [[6,4,6,6,1],[4,6,3,4,3]],
-                    "points": [[2.4],[1.2]]
+                    "pairs": [["Roberto De la Gala","Josep Cabrera"],["Arnau Cristóbal","Joaquín Sánchez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 18",
-            "dates": ["26/1/2026", "1/2/2026"],
+            "dates": ["15/3/2027", "21/3/2027"],
             "games": [
                 {
-                    "pairs": [["David Díez","Carlos Blanch"],["Joaquín Sánchez","Gustavo Guerrero"]],
-                    "results": [[3,6,6,6,7],[6,4,3,0,6]],
-                    "points": [[2.8],[1]]
+                    "pairs": [["Fran Domínguez","Josep Cabrera"],["Arnau Cristóbal","Joaquín Sánchez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Josep Cabrera","Fran Domínguez"],["Ayman Pereira","Arnau Cristóbal"]],
-                    "results": [[4,6,3,1,3],[6,7,6,6,6]],
-                    "points": [[0],[3.2]]
+                    "pairs": [["Gerard Pérez","Martín Caballero"],["Roberto De la Gala","Akos Szabo"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Angel Pérez","Blai Cabrera"],["Akos Szabo","Gerard Pérez"]],
-                    "results": [[5,1,7,3,1],[7,6,6,6,6]],
-                    "points": [[0.4],[2.8]]
+                    "pairs": [["David Díez","Gustavo Guerrero"],["Albert Doblas","Ángel Pérez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 19",
-            "dates": ["2/2/2026", "8/2/2026"],
+            "dates": ["5/4/2027", "11/4/2027"],
             "games": [
                 {
-                    "pairs": [["Gerard Pérez","Fran Domínguez"],["David Díez","Akos Szabo"]],
-                    "results": [[7,6,6,6,5],[5,2,2,4,3]],
-                    "points": [[3.2],[0]]
+                    "pairs": [["David Díez","Joaquín Sánchez"],["Arnau Cristóbal","Fran Domínguez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Angel Pérez","Joaquín Sánchez"],["Carlos Blanch","Blai Cabrera"]],
-                    "results": [[7,6,6,4,7],[5,4,4,6,6]],
-                    "points": [[2.8],[0.4]]
+                    "pairs": [["Albert Doblas","Martín Caballero"],["Roberto De la Gala","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Ayman Pereira","Gustavo Guerrero"],["Josep Cabrera","Arnau Cristóbal"]],
-                    "results": [[6,6,0,6,6],[3,7,6,1,1]],
-                    "points": [[1.8],[2]]
+                    "pairs": [["Gerard Pérez","Akos Szabo"],["Ángel Pérez","Gustavo Guerrero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 20",
-            "dates": ["9/2/2026", "15/2/2026"],
+            "dates": ["12/4/2027", "18/4/2027"],
             "games": [
                 {
-                    "pairs": [["Joaquín Sánchez","Josep Cabrera"],["Angel Pérez","Gustavo Guerrero"]],
-                    "results": [[6,5,6,6,0],[2,7,4,2,3]],
-                    "points": [[2.4],[1.2]]
+                    "pairs": [["Albert Doblas","Josep Cabrera"],["Fran Domínguez","Gustavo Guerrero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Akos Szabo","Arnau Cristóbal"],["David Díez","Gerard Pérez"]],
-                    "results": [[1,3,7,2,1],[6,6,5,6,6]],
-                    "points": [[0.4],[2.8]]
+                    "pairs": [["Gerard Pérez","David Díez"],["Arnau Cristóbal","Roberto De la Gala"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Carlos Blanch","Fran Domínguez"],["Ayman Pereira","Blai Cabrera"]],
-                    "results": [[7,5,5,6,null],[5,7,7,4,null]],
-                    "points": [[1.4],[2]]
+                    "pairs": [["Joaquín Sánchez","Ángel Pérez"],["Akos Szabo","Martín Caballero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 21",
-            "dates": ["16/2/2026", "22/2/2026"],
+            "dates": ["19/4/2027", "25/4/2027"],
             "games": [
                 {
-                    "pairs": [["David Díez","Blai Cabrera"],["Carlos Blanch","Ayman Pereira"]],
-                    "results": [[0,1,1,2,4],[6,6,6,6,6]],
-                    "points": [[0],[3.2]]
+                    "pairs": [["Fran Domínguez","Martín Caballero"],["Albert Doblas","Joaquín Sánchez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Gustavo Guerrero","Fran Domínguez"],["Angel Pérez","Akos Szabo"]],
-                    "results": [[6,7,4,3,1],[4,5,6,6,4]],
-                    "points": [[2],[1.2]]
+                    "pairs": [["Arnau Cristóbal","Akos Szabo"],["Gerard Pérez","David Díez"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Josep Cabrera","Gerard Pérez"],["Joaquín Sánchez","Arnau Cristóbal"]],
-                    "results": [[6,1,4,1,7],[1,6,6,6,5]],
-                    "points": [[1.4],[2.4]]
+                    "pairs": [["Roberto De la Gala","Gustavo Guerrero"],["Ángel Pérez","Josep Cabrera"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
         },
         {
             "journey": "Jornada 22",
-            "dates": ["23/2/2026", "1/3/2026"],
+            "dates": ["26/4/2027", "2/5/2027"],
             "games": [
                 {
-                    "pairs": [["Arnau Cristóbal","Fran Domínguez"],["Joaquín Sánchez","Blai Cabrera"]],
-                    "results": [[4,6,6,6,null],[6,2,2,7,null]],
-                    "points": [[2],[1.4]]
+                    "pairs": [["Arnau Cristóbal","Gerard Pérez"],["Joaquín Sánchez","Gustavo Guerrero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Carlos Blanch","Gerard Pérez"],["David Díez","Josep Cabrera"]],
-                    "results": [[6,6,6,6,3],[1,1,3,3,4]],
-                    "points": [[2.8],[0.4]]
+                    "pairs": [["Albert Doblas","Fran Domínguez"],["David Díez","Akos Szabo"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 },
                 {
-                    "pairs": [["Angel Pérez","Ayman Pereira"],["Gustavo Guerrero","Akos Szabo"]],
-                    "results": [[4,6,6,6,6],[6,4,2,1,4]],
-                    "points": [[2.8],[1]]
+                    "pairs": [["Angel Pérez","Josep Cabrera"],["Roberto De la Gala","Martín Cabalero"]],
+                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
+                    "points": [[null],[null]],
+                    "date": null, 
+                    "court": null
                 }
             ]
-        },
-        {
-            "journey": "Jornada 23",
-            "dates": ["2/3/2026", "8/3/2026"],
-            "games": [
-                {
-                    "pairs": [["Angel Pérez","Ayman Pereira"],["Carlos Blanch","Gerard Pérez"]],
-                    "results": [[1,7,5,5,null],[6,5,7,6,null]],
-                    "points": [[1],[2.4]]
-                },
-                {
-                    "pairs": [["Gustavo Guerrero","Arnau Cristóbal"],["Josep Cabrera","Blai Cabrera"]],
-                    "results": [[6,6,6,6,6],[0,3,2,2,2]],
-                    "points": [[3.2],[0]]
-                },
-                {
-                    "pairs": [["Fran Domínguez","David Díez"],["Akos Szabo","Joaquín Sánchez"]],
-                    "results": [[6,3,7,6,2],[2,6,5,4,5]],
-                    "points": [[2.4],[1.4]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 24",
-            "dates": ["9/3/2026", "15/3/2026"],
-            "games": [
-                {
-                    "pairs": [["Akos Szabo","Arnau Cristóbal"],["Angel Pérez","Joaquín Sánchez"]],
-                    "results": [[7,6,6,5,null],[6,7,2,2,null]],
-                    "points": [[2.4],[1]]
-                },
-                {
-                    "pairs": [["David Díez","Carlos Blanch"],["Fran Domínguez","Ayman Pereira"]],
-                    "results": [[5,7,4,2,null],[7,5,6,6,null]],
-                    "points": [[1],[2.4]]
-                },
-                {
-                    "pairs": [["Blai Cabrera","Gerard Pérez"],["Gustavo Guerrero","Josep Cabrera"]],
-                    "results": [[6,4,6,5,null],[4,6,4,4,null]],
-                    "points": [[2.4],[1]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 25",
-            "dates": ["16/3/2026", "22/3/2026"],
-            "games": [
-                {
-                    "pairs": [["Gustavo Guerrero","Carlos Blanch"],["David Díez","Gerard Pérez"]],
-                    "results": [[4,5,1,6,3],[6,7,6,3,4]],
-                    "points": [[0.4],[2.8]]
-                },
-                {
-                    "pairs": [["Josep Cabrera","Joaquín Sánchez"],["Akos Szabo","Angel Pérez"]],
-                    "results": [[5,6,2,2,1],[7,0,6,6,6]],
-                    "points": [[1],[2.8]]
-                },
-                {
-                    "pairs": [["Ayman Pereira","Arnau Cristóbal"],["Fran Domínguez","Blai Cabrera"]],
-                    "results": [[6,6,4,6,6],[2,3,6,0,2]],
-                    "points": [[2.8],[0.4]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 26",
-            "dates": ["23/3/2026", "29/3/2026"],
-            "games": [
-                {
-                    "pairs": [["Fran Domínguez","Angel Pérez"],["Ayman Pereira","Blai Cabrera"]],
-                    "results": [[7,4,3,2,2],[5,6,6,6,5]],
-                    "points": [[1],[2.8]]
-                },
-                {
-                    "pairs": [["Gerard Pérez","Arnau Cristóbal"],["David Díez","Joaquín Sánchez"]],
-                    "results": [[7,6,6,6,3],[5,1,3,7,4]],
-                    "points": [[2.4],[0.8]]
-                },
-                {
-                    "pairs": [["Gustavo Guerrero","Akos Szabo"],["Josep Cabrera","Carlos Blanch"]],
-                    "results": [[6,6,6,6,5],[4,3,2,7,1]],
-                    "points": [[2.8],[0.4]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 27",
-            "dates": ["6/4/2026", "12/4/2026"],
-            "games": [
-                {
-                    "pairs": [["Josep Cabrera","Arnau Cristóbal"],["Fran Domínguez","Carlos Blanch"]],
-                    "results": [[6,6,null,null,null],[0,0,null,null,null]],
-                    "points": [[2],[0]]
-                },
-                {
-                    "pairs": [["Akos Szabo","Ayman Pereira"],["Gustavo Guerrero","Angel Pérez"]],
-                    "results": [[6,6,6,6,6],[1,2,3,3,7]],
-                    "points": [[2.8],[0.4]]
-                },
-                {
-                    "pairs": [["David Díez","Blai Cabrera"],["Gerard Pérez","Joaquín Sánchez"]],
-                    "results": [[6,3,3,5,null],[7,6,6,4,null]],
-                    "points": [[0.4],[2.4]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 28",
-            "dates": ["13/4/2026", "19/4/2026"],
-            "games": [
-                {
-                    "pairs": [["Ayman Pereira","Gerard Pérez"],["Akos Szabo","Blai Cabrera"]],
-                    "results": [[6,6,6,3,2],[4,2,1,6,4]],
-                    "points": [[2.4],[0.8]]
-                },
-                {
-                    "pairs": [["Carlos Blanch","Joaquín Sánchez"],["Josep Cabrera","Fran Domínguez"]],
-                    "results": [[6,6,null,null,null],[0,0,null,null,null]],
-                    "points": [[2],[0]]
-                },
-                {
-                    "pairs": [["Angel Pérez","Arnau Cristóbal"],["Gustavo Guerrero","David Díez"]],
-                    "results": [[1,1,4,6,1],[6,6,6,3,4]],
-                    "points": [[0.4],[2.8]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 29",
-            "dates": ["20/4/2026", "26/4/2026"],
-            "games": [
-                {
-                    "pairs": [["Gustavo Guerrero","Fran Domínguez"],["Angel Pérez","David Díez"]],
-                    "results": [[4,6,3,6,2],[6,7,6,3,1]],
-                    "points": [[1.6],[2.4]]
-                },
-                {
-                    "pairs": [["Blai Cabrera","Arnau Cristóbal"],["Akos Szabo","Carlos Blanch"]],
-                    "results": [[4,7,6,5,null],[6,6,4,3,null]],
-                    "points": [[2.3],[1]]
-                },
-                {
-                    "pairs": [["Josep Cabrera","Gerard Pérez"],["Ayman Pereira","Joaquín Sánchez"]],
-                    "results": [[2,0,2,4,0],[6,6,6,6,6]],
-                    "points": [[0],[3.2]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 30",
-            "dates": ["27/4/2026", "3/5/2026"],
-            "games": [
-                {
-                    "pairs": [["Joaquín Sánchez","Arnau Cristóbal"],["Gustavo Guerrero","Ayman Pereira"]],
-                    "results": [[6,4,7,1,null],[4,6,6,4,null]],
-                    "points": [[2],[1.4]]
-                },
-                {
-                    "pairs": [["Josep Cabrera","Angel Pérez"],["Fran Domínguez","Gerard Pérez"]],
-                    "results": [[4,6,0,2,1],[6,4,6,6,4]],
-                    "points": [[1],[2.8]]
-                },
-                {
-                    "pairs": [["Akos Szabo","David Díez"],["Blai Cabrera","Carlos Blanch"]],
-                    "results": [[6,6,6,6,4],[7,3,1,3,1]],
-                    "points": [[2.8],[1]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 31",
-            "dates": ["4/5/2026", "10/5/2026"],
-            "games": [
-                {
-                    "pairs": [["Angel Pérez","Blai Cabrera"],["Josep Cabrera","David Díez"]],
-                    "results": [[3,4,4,2,null],[6,6,6,5,null]],
-                    "points": [[0],[2.8]]
-                },
-                {
-                    "pairs": [["Ayman Pereira","Carlos Blanch"],["Gustavo Guerrero","Joaquín Sánchez"]],
-                    "results": [[6,6,6,6,6],[2,0,3,3,1]],
-                    "points": [[3.2],[0]]
-                },
-                {
-                    "pairs": [["Fran Domínguez","Arnau Cristóbal"],["Akos Szabo","Gerard Pérez"]],
-                    "results": [[6,5,6,6,null],[4,7,1,1,null]],
-                    "points": [[2.4],[1]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 32",
-            "dates": ["11/5/2026", "17/5/2026"],
-            "games": [
-                {
-                    "pairs": [["Gustavo Guerrero","Gerard Pérez"],["Fran Domínguez","Akos Szabo"]],
-                    "results": [[6,6,2,2,6],[3,3,6,6,0]],
-                    "points": [[2.4],[0.8]]
-                },
-                {
-                    "pairs": [["David Díez","Arnau Cristóbal"],["Josep Cabrera","Ayman Pereira"]],
-                    "results": [[6,6,3,6,2],[2,4,6,3,1]],
-                    "points": [[2.6],[0.4]]
-                },
-                {
-                    "pairs": [["Blai Cabrera","Joaquín Sánchez"],["Angel Pérez","Carlos Blanch"]],
-                    "results": [[3,6,6,4,1],[6,4,4,6,5]],
-                    "points": [[2],[1.8]]
-                }
-            ]
-        },
-        {
-            "journey": "Jornada 33",
-            "dates": ["18/5/2026", "24/5/2026"],
-            "games": [
-                {
-                    "pairs": [["Carlos Blanch","Arnau Cristóbal"],["Angel Pérez","Gerard Pérez"]],
-                    "results": [[3,1,3,2,4],[6,6,6,6,6]],
-                    "points": [[0],[3.2]]
-                },
-                {
-                    "pairs": [["Fran Domínguez","Joaquín Sánchez"],["Gustavo Guerrero","Blai Cabrera"]],
-                    "results": [[6,6,6,4,6],[4,3,1,6,4]],
-                    "points": [[2.8],[0.4]]
-                },
-                {
-                    "pairs": [["Josep Cabrera","Akos Szabo"],["David Díez","Ayman Pereira"]],
-                    "results": [[2,4,4,4,4],[6,6,6,6,6]],
-                    "points": [[0],[3.2]]
-                }
-            ]
-        }
+        } 
     ]
 }

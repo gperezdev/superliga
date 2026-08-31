@@ -3,10 +3,10 @@
     height: 100%;
     background-image:
         linear-gradient(180deg,
-            rgba(22, 22, 22, 1) 0%,
-            rgba(22, 22, 22, 0.25) 25%,
-            rgba(22, 22, 22, 0.25) 75%,
-            rgba(22, 22, 22, 1) 100%),
+            rgba(33, 33, 33, 1) 0%,
+            rgba(33, 33, 33, 0.25) 25%,
+            rgba(33, 33, 33, 0.25) 75%,
+            rgba(33, 33, 33, 1) 100%),
         url("/src/assets/images/background.webp");
     background-size: cover;
     background-position: center;
@@ -17,23 +17,23 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
-    background: linear-gradient(180deg, rgba(22, 22, 22, 1) 0%, rgba(22, 22, 22, 1) 25%, rgba(22, 22, 22, 1) 75%, rgba(22, 22, 22, 1) 100%);
+    background: linear-gradient(180deg, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 1) 25%, rgba(33, 33, 33, 1) 75%, rgba(33, 33, 33, 1) 100%);
 }
 
 .hero .header {
     position: absolute;
     display: flex;
-    gap: 20px;
+    gap: 50px;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: flex-end;
     height: 100%;
     width: 100%;
-    padding: 0rem 3.5rem;
+    padding: 10rem 3.5rem;
 }
 
 .hero .header .title {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: flex-start;
@@ -41,21 +41,21 @@
     text-transform: uppercase;
 }
 
-.hero .header .title p:nth-child(1),
-.hero .header .title p:nth-child(3) {
-    color: transparent;
-    -webkit-text-stroke: 1px var(--primary);
-    -webkit-text-fill-color: transparent;
-    font-size: clamp(1.5rem, 8vw, 8rem);
-    font-family: var(--titles), sans-serif;
-    font-weight: 600;
+.hero .header .title p:nth-child(1) {
+    color: var(--primary);
+    font-size: 20px;
+    font-family: var(--tag), sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
 }
 
 .hero .header .title p:nth-child(2) {
     color: var(--primary);
-    font-size: clamp(2.5rem, 12.5vw, 12.5rem);
+    font-size: clamp(48px, 12.5vw, 200px);
+    line-height: clamp(48px, 12.5vw, 200px);
     font-family: var(--titles), sans-serif;
     font-weight: 800;
+    letter-spacing: 5px;
 }
 
 .hero .header .buttons {
@@ -65,14 +65,23 @@
 }
 
 .hero .header .buttons button {
-    width: 200px;
     padding: 0.35rem 3.5rem;
     border: 1px solid var(--primary);
-    font-weight: 300;
-    border-radius: 10px;
-    color: var(--primary);
+    font-weight: 600;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero .header .buttons a:nth-child(1) {
+    background-color: var(--primary);
+    color: var(--black);
+}
+
+.hero .header .buttons a:nth-child(2) {
+    color: var(--primary);
+    backdrop-filter: blur(10px);
 }
 
 .hero .header .buttons button:hover {

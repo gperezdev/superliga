@@ -1,5 +1,4 @@
 //Librerías
-import React from 'react'
 import { Element } from 'react-scroll'
 
 //Data
@@ -13,7 +12,7 @@ export const Ranking = () => {
     return (
 
         <Element name='ranking' className={styles['ranking']}>
-            <div className={styles['wrapper']} data-aos="fade-left" data-aos-easing="ease-in-out">
+            <div className={styles['wrapper']}>
                 <h1 className={styles['title']}>Clasificación</h1>
                 <PlayerTable data={data} />
             </div>
@@ -40,34 +39,44 @@ const PlayerTable = ({ data }) => {
 
     const checkPosition = (pos) => {
         if (pos <= 4) return styles['classified']
-        if (pos > 4 && pos <= 10) return styles['playoff']
-        if (pos > 10) return styles['eliminated']
+        if (pos > 4) return styles['playoff']
     }
 
     return (
 
         <div className={styles["container"]}>
-            <table className={styles["table"]}>
+            <table className={styles.table}>
+                <colgroup>
+                    <col className={styles.position} />
+                    <col className={styles.player} />
+                    <col className={styles.stat} />
+                    <col className={styles.stat} />
+                    <col className={styles.stat} />
+                    <col className={styles.points} />
+                </colgroup>
+
                 <thead>
                     <tr>
-                        <th>Pos.</th>
+                        <th>#</th>
                         <th style={{ textAlign: 'left' }}>Jugador</th>
-                        <th>PT</th>
                         <th>PJ</th>
                         <th>PG</th>
                         <th>PP</th>
-
+                        <th>PT</th>
                     </tr>
                 </thead>
+
                 <tbody>
                     {sortedData.map((player, index) => (
                         <tr key={index} className={checkPosition(index + 1)}>
-                            <td >{index + 1}</td>
-                            <td style={{ textAlign: 'left' }}>{player.name}</td>
-                            <td style={{ fontWeight: 'bold' }}>{player?.points?.toFixed(1)}</td>
+                            <td className={styles.boldValues}>{index + 1}</td>
+                            <td style={{textAlign: 'left'}} className={styles.boldValues}>{player.name}</td>
                             <td>{player.gamesPlayed}</td>
                             <td>{player.wins}</td>
                             <td>{player.loses}</td>
+                            <td className={styles.boldValues}>
+                                {player?.points?.toFixed(1)}
+                            </td>
                         </tr>
                     ))}
                 </tbody>

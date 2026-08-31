@@ -1,5 +1,5 @@
 //Librerías
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-scroll'
 
 //Icons
@@ -16,7 +16,7 @@ export const Navbar = () => {
     return (
 
         <>
-            <nav data-aos="fade-down" className={styles['navbar']} style={{ backdropFilter: opened ? 'none' : 'blur(20px)' }}>
+            <nav className={styles['navbar']} style={{ backdropFilter: opened ? 'none' : 'blur(10px)' }}>
 
                 <div className={styles['logo']}>
                     <img src={logo} alt="Logo" />
@@ -31,9 +31,10 @@ export const Navbar = () => {
                 </div>
 
                 <div className={`${styles['content']} ${opened ? styles['navbar--opened'] : ''}`}>
-                    <Link to="home" smooth={true} duration={100} offset={0} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Inicio</Link>
-                    <Link to="results" smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Resultados</Link>
-                    <Link to="ranking" smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Clasificación</Link>
+                    <Link to="home" href='' smooth={true} duration={100} offset={0} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Inicio</Link>
+                    <Link to="results" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Resultados</Link>
+                    <Link to="ranking" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Clasificación</Link>
+                    <Link to="fame" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Hall of Fame</Link>
                 </div>
             </nav>
 

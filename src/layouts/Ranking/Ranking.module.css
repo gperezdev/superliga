@@ -24,9 +24,37 @@
 }
 
 .table {
-    width: 1000px;
+    width: 800px;
     border-collapse: collapse;
     color: var(--primary);
+    border: 1px solid #CEF17B20;
+    table-layout: fixed;
+    font-family: var(--tag);
+    background-color: #2A2A2A30;
+    backdrop-filter: blur(10px);
+}
+
+.table .position {
+    width: 50px;
+}
+
+.table .player {
+    width: 250px;
+}
+
+.table .stat {
+    width: 50px;
+    text-align: center;
+}
+
+.table .points {
+    width: 100px;
+}
+
+.table .boldValues {
+    font-weight: bold;
+    font-family: var(--titles);
+    font-size: 20px;
 }
 
 .table th,
@@ -37,10 +65,16 @@
 
 .table th {
     font-weight: 400;
+    border-bottom: 1px solid #CEF17B20;
+    font-size: 14px;
 }
 
 .table tbody tr {
-    border-bottom: 1px solid #EAB86D20;
+    border-bottom: 1px solid #CEF17B10;
+}
+
+.table tbody tr:first-of-type {
+    background: #CEF17B10;
 }
 
 .table tbody tr:last-of-type {
@@ -53,10 +87,6 @@
 
 .playoff {
     color: #f9f9f9;
-}
-
-.eliminated {
-    color: #ff5461;
 }
 
 @media (max-width: 1120px) {
@@ -81,12 +111,43 @@
 
 @media (max-width: 500px) {
 
+    .container {
+        padding: 20px 0px;
+    }
+
     .table {
-        width: 382px;
+        width: 100%;
+        min-width: fit-content;
+        font-size: 16px;
+    }
+
+    .table th {
+        font-size: 10px;
     }
 
     .title {
         font-size: 36px;
+    }
+
+    .table .position {
+        width: 35px;
+    }
+
+    .table .player {
+        width: 150px;
+    }
+
+    .table .stat {
+        width: 25px;
+        text-align: center;
+    }
+
+    .table .points {
+        width: 35px;
+    }
+
+    .table .boldValues {
+        font-size: 16px;
     }
 
 }

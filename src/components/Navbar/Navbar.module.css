@@ -5,10 +5,10 @@
     gap: 20px;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
     z-index: 1;
     padding: 2rem 3.5rem;
     width: 100%;
-    backdrop-filter: blur(20px);
 }
 
 .navbar .logo {
@@ -32,6 +32,7 @@
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .navbar .content {
@@ -44,6 +45,9 @@
 .navbar .content a {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: var(--tag);
 }
 
 .navbar .content a:hover {
@@ -87,9 +91,9 @@
         top: 0;
         right: 0;
         flex-direction: column;
-        background: #16161620;
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
+        background: #21212120;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         padding: 6rem 3.5rem;
         transform: translateX(100%);
         z-index: 1;
@@ -100,21 +104,23 @@
     .navbar--opened {
         transform: translateX(0);
         flex-flow: column nowrap !important;
+        background: #212121;
     }
 
     .navbar--opened a {
-        font-size: 32px;
+        font-size: 24px !important;
+        font-family: var(--titles);
     }
 }
 
 .burger--active span:nth-child(1) {
-  transform: rotate(45deg) translate(3px, 8px);
+    transform: rotate(45deg) translate(3px, 8px);
 }
 
 .burger--active span:nth-child(2) {
-  opacity: 0;
+    opacity: 0;
 }
 
 .burger--active span:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -9.5px);
+    transform: rotate(-45deg) translate(5px, -9.5px);
 }

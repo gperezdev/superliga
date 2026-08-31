@@ -25,6 +25,7 @@
     color: var(--primary);
     font-weight: bold;
     font-size: 48px;
+    letter-spacing: 1px;
 }
 
 .header .title h1:last-of-type {
@@ -33,35 +34,77 @@
     -webkit-text-fill-color: transparent;
 }
 
-.header .selector {
+.header .journeys {
     display: flex;
-    flex-flow: row nowrap;
-    gap: 10px;
     align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 800px;
+    min-width: 0;
+}
+
+.header .journeys .journeysList {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    gap: 10px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    padding: 10px 0;
+
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+
+    scroll-behavior: smooth;
+}
+
+.header .journeys .journeysList::-webkit-scrollbar {
+    display: none;
+}
+
+.header .journeys .selector {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 5px 10px;
+
     color: var(--primary);
-    position: relative;
+    background-color: #CEF17B10;
+    border: 1px solid #CEF17B20;
+    backdrop-filter: blur(10px);
+
+    font-family: var(--tag);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+    white-space: nowrap;
+
+    transition: all 0.3s ease;
+}
+
+.header .journeys .selector:hover {
+    background-color: #CEF17B20;
+}
+
+.header .journeys .selector.active {
+    background-color: var(--primary);
+    color: #000;
+    border-color: var(--primary);
+    font-weight: bold;
+}
+
+.header .journeys .arrow {
+    flex: 0 0 auto;
+    border: none;
+    background: transparent;
+    color: var(--primary);
     cursor: pointer;
 }
 
-
-.header .selector img {
-    width: 22px;
-    height: auto;
-    object-fit: contain;
-    transition: all 0.3s ease-in-out;
-}
-
-.header .selector p {
-    transition: all 0.3s ease-in-out;
-}
-
-.header .selector:hover>img:first-of-type,
-.header .selector:hover>p:first-of-type {
-    filter: brightness(1.25);
-}
-
 .matches {
-    margin-top: 80px;
+    margin-top: 20px;
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
@@ -72,19 +115,27 @@
 .matches .game {
     display: flex;
     flex-flow: column nowrap;
-    gap: 20px;
+    gap: 5px;
+    background-color: #2a2a2a30;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border: 1px solid #CEF17B20;
 }
 
-.matches .game hr {
-    width: 100%;
-    height: 1px;
-    background-color: var(--primary);
-    opacity: 0.25;
-    margin: 20px 0px;
+.matches .game_header {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+    margin-bottom: 10px;
 }
 
-.matches .game p {
-    opacity: 0.85;
+.matches .game_header p,
+.matches .game_header span {
+    font-family: var(--tag);
+    color: var(--primary);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .matches .game .pair {
@@ -92,9 +143,11 @@
     flex-flow: row nowrap;
     gap: 150px;
     align-items: center;
-    padding: 0rem 3.5rem;
-    color: var(--primary);
+    color: var(--white);
     width: 100%;
+    font-family: var(--titles);
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .matches .game .pair .names,
@@ -104,60 +157,42 @@
     align-items: center;
 }
 
+
 .matches .game .pair .names {
-    gap: 20px;
+    display: flex;
+    gap: 5px;
+    width: 250px;
+    min-width: 0;
+    overflow: hidden;
 }
 
-.matches .game .pair .names p:first-of-type {
-    text-align: right;
-    width: 150px;
+.matches .game .pair .names p {
+    margin: 0;
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-.matches .game .pair .names p:last-of-type {
-    text-align: left;
-    width: 150px;
+.matches .game .pair .names span {
+    flex-shrink: 0;
 }
+
 
 .matches .game .pair .sets {
     gap: 50px;
-    width: 250px;
+    width: 200px;
     justify-content: space-between;
 }
 
-.matches .game .pair .sets p{
-   width: 15px;
-}
-
-
-.dropdown {
-    width: 200px;
-    height: 400px;
-    position: absolute;
-    top: 40px;
-    background-color: transparent;
-    backdrop-filter: blur(3px);
-    border-top: 1px solid var(--primary);
-    border-bottom: 1px solid var(--primary);
-    padding: 1rem 2rem;
-    overflow-y: scroll;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 10px;
-    z-index: 2;
-}
-
-.dropdown p {
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.dropdown p:hover {
-    filter: brightness(1.25);
+.matches .game .pair .sets p {
+    width: 15px;
 }
 
 .winner {
     opacity: 1 !important;
-    font-weight: 600;
+    font-weight: bold;
+    color: var(--primary);
 }
 
 @media (max-width: 1120px) {
@@ -175,7 +210,8 @@
     }
 
     .matches .game {
-        width: 1000px;
+        width: 100%;
+        min-width: fit-content;
     }
 
 }
@@ -183,30 +219,50 @@
 @media (max-width: 500px) {
 
     .matches .game {
-        width: 400px;
+        width: 100%;
+        min-width: fit-content;
     }
 
     .matches .game .pair {
         padding: 0rem;
-        gap: 50px;
+        gap: 30px;
+        justify-content: space-between;
     }
 
     .matches .game .pair .sets {
-        gap: 20px;
-        width: 150px;
+        gap: 10px;
+        width: 100px;
     }
 
     .matches .game .pair .names {
         flex-flow: column nowrap;
-        align-items: flex-end;
-        gap: 10px;
+        align-items: flex-start;
+        gap: 0px;
+        width: 100px;
+        font-size: 16px;
     }
 
-    .matches .game .pair .names p {
-        text-align: right !important;
+    .matches .game .pair .names span {
+        flex-shrink: 0;
+        display: none;
     }
 
     .header .title {
         font-size: 36px;
     }
+
+    .header .journeys {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .header .journeys .journeysList {
+        width: 100%;
+    }
+
+    .header .journeys .selector {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+
 }

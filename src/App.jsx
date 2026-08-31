@@ -1,20 +1,14 @@
-//Librerías
-import { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
-
+//CSS
+import styles from './App.module.css'
 
 //Layouts
 import { Header } from './layouts/Header/Header'
 import { Results } from './layouts/Results/Results'
 import { Ranking } from './layouts/Ranking/Ranking'
+import { Fame } from './layouts/Fame/Fame'
 
 export const App = () => {
 
-
-    useEffect(() => {
-        AOS.init({ duration: 1000, once: true })
-    }, [])
 
     return (
         <>
@@ -22,15 +16,20 @@ export const App = () => {
             {/* Inicio */}
             <Header />
 
-            <div style={{display: 'flex', flexFlow: 'column nowrap', gap: '40px'}}>
+            <div className={styles["page"]}>
+
                 {/* Resultados */}
                 <Results />
 
                 {/* Clasificación */}
                 <Ranking />
+
+                {/* Hall of fame */}
+                <Fame />
+
             </div>
 
-            <footer style={{padding: '3.5rem', textAlign: 'center', fontSize: '10px', opacity: '0.5'}}>Liga Supervila de Martorell ©</footer>
+            <footer style={{ padding: '2rem', textAlign: 'center', fontSize: '10px', color: 'var(--primary)', fontFamily: 'var(--tag)' }}>Liga Supervila de Martorell ©</footer>
 
         </>
     )

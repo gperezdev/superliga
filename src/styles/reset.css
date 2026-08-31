@@ -164,7 +164,7 @@ svg {
 body {
     min-height: 100vh;
     font-size: 100%;
-    font-family: var(--text);
+    font-family: var(--tag);
     color: var(--white);
     /* (Opcional) */
     -webkit-hyphens: auto;

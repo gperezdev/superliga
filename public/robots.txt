@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://superliga-martorell.vercel.app/sitemap.xml

@@ -20,10 +20,11 @@
                 },
                 {
                     "pairs": [["Joaquín Sánchez","Akos Szabo"],["Albert Doblas","Martín Caballero"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 7, 6, 4, null],[3, 6, 4, 6, null]],
+                    "points": [[2.4],[0.4]],
+                    "date": "3 de set. 2026", 
+                    "court": "Pista 4",
+                    "equipment": "Joaquín Sánchez"
                 }
             ]
         },

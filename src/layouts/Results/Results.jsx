@@ -165,7 +165,10 @@ const formatName = (name) => {
 
 
 // Componente para crear una pareja
-const Pair = ({ pair, results, points, opponentResults, opponentPoints }) => {
+const Pair = ({ pair, results, points, opponentPoints, equipment }) => {
+    const isMatchWinner = points?.[0] != null
+        && opponentPoints?.[0] != null
+        && points[0] > opponentPoints[0]
 
     return (
         <div className={styles['pair']}>
@@ -173,12 +176,13 @@ const Pair = ({ pair, results, points, opponentResults, opponentPoints }) => {
             <div className={styles.names}>
                 {pair.map((name, i) => (
                     <React.Fragment key={i}>
-                        <p className={points > opponentPoints ? styles.winner : ''}>
+                        <p className={isMatchWinner ? styles.winner : ''}>
+                            {equipment?.trim() === name?.trim() ? '· ' : ''}
                             {formatName(name)}
                         </p>
 
                         {i < pair.length - 1 && (
-                            <span className={points > opponentPoints ? styles.winner : ''}>/</span>
+                            <span className={isMatchWinner ? styles.winner : ''}>/</span>
                         )}
                     </React.Fragment>
                 ))}
@@ -187,13 +191,15 @@ const Pair = ({ pair, results, points, opponentResults, opponentPoints }) => {
             <div className={styles['sets']}>
                 {Array.from({ length: 5 }).map((_, i) => {
                     const myScore = results?.[i]
-                    const oppScore = opponentResults?.[i]
-                    const isWinner = myScore != null && oppScore != null && myScore > oppScore
-                    return (<p key={i} className={isWinner ? styles['winner'] : ''}>{myScore ?? '-'}</p>)
+                    return (
+                        <p key={i} className={isMatchWinner ? styles['winner'] : ''}>
+                            {myScore ?? '-'}
+                        </p>
+                    )
                 })}
             </div>
 
-            <p style={{marginLeft: 'auto'}} className={points > opponentPoints ? styles['winner'] : ''}>{points[0]?.toFixed(1) ?? '-'}</p>
+            <p style={{ marginLeft: 'auto' }} className={isMatchWinner ? styles['winner'] : ''}>{points?.[0]?.toFixed(1) ?? '-'}</p>
 
         </div>
     )
@@ -216,8 +222,8 @@ const Matches = ({ currentData }) => {
                         pair={game.pairs[0]}
                         results={game.results[0]}
                         points={game.points[0]}
-                        opponentResults={game.results[1]}
                         opponentPoints={game.points[1]}
+                        equipment={game.equipment}
                     />
 
                     <div style={{ display: 'flex', flexFlow: 'row nowrap', justifyContent: 'center', alignItems: 'center', width: '100%', opacity: '0.25' }}>
@@ -230,8 +236,8 @@ const Matches = ({ currentData }) => {
                         pair={game.pairs[1]}
                         results={game.results[1]}
                         points={game.points[1]}
-                        opponentResults={game.results[0]}
                         opponentPoints={game.points[0]}
+                        equipment={game.equipment}
                     />
                 </div>
             ))}

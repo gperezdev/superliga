@@ -232,6 +232,7 @@
         padding: 0rem;
         gap: 30px;
         justify-content: space-between;
+        font-size: 16px;
     }
 
     .matches .game .pair .sets {
@@ -244,7 +245,6 @@
         align-items: flex-start;
         gap: 0px;
         width: 90px;
-        font-size: 16px;
     }
 
     .matches .game .pair .names span {

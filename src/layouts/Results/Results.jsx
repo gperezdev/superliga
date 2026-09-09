@@ -239,6 +239,12 @@ const Matches = ({ currentData }) => {
                         opponentPoints={game.points[0]}
                         equipment={game.equipment}
                     />
+
+                    {game?.info?.injured && <p className={styles['game__injured']}>✚ {game.info.injured}</p>}
+                    {game?.info?.adds && <p className={styles['game__adds']}>✚ {game.info.adds}</p>}
+                    {game?.info?.sanctioned && <p className={styles['game__sanctioned']}>✚ {game.info.sanctioned}</p>}
+
+
                 </div>
             ))}
         </div>

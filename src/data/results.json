@@ -8,15 +8,17 @@
                     "pairs": [["Arnau Cristóbal","Josep Cabrera"],["Gerard Pérez","Ángel Pérez"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
-                    "date": null, 
+                    "date": "Partido aplazado", 
                     "court": null
                 },
                 {
                     "pairs": [["David Díez","Roberto De la Gala"],["Fran Domínguez","Gustavo Guerrero"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 6, 6, null, null],[1, 7, 0, null, null]],
+                    "points": [[2],[1]],
+                    "date": "8 de set. 2026", 
+                    "court": "Pista 5",
+                    "equipment": "Roberto De la Gala",
+                    "info": {"injured": "F. Domínguez abandona por lesión.", "adds": null, "sanctioned": null}
                 },
                 {
                     "pairs": [["Joaquín Sánchez","Akos Szabo"],["Albert Doblas","Martín Caballero"]],

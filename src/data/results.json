@@ -44,17 +44,21 @@
                 },
                 {
                     "pairs": [["David Díez","Albert Doblas"],["Arnau Cristóbal","Roberto De la Gala"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 7, 7, 1, null],[3, 6, 5, 5, null]],
+                    "points": [[2.4],[0.4]],
+                    "date": "16 de set. 2026", 
+                    "court": "Pista 5",
+                    "equipment": "Albert Doblas"
                 },
                 {
                     "pairs": [["Fran Domínguez","Martín Caballero"],["Gerard Pérez","Ángel Pérez"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[0, 0, null, null, null],[6, 6, null, null, null]],
+                    "points": [[0],[2]],
+                    "date": "16 de set. 2026", 
+                    "court": "Pista 4",
+                    "equipment": "Ángel Pérez",
+                    "info": {"injured": null, "adds": null, "sanctioned": "Rival sustituto no presentado"}
+
                 }
             ]
         },

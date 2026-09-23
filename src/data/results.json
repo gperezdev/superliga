@@ -76,10 +76,11 @@
                 },
                 {
                     "pairs": [["Joaquín Sánchez","Josep Cabrera"],["David Díez","Gustavo Guerrero"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[2, 1, 3, 1, 4],[6, 6, 6, 6, 6]],
+                    "points": [[0],[3.2]],
+                    "date": "22 de set. 2026", 
+                    "court": "Pista 4",
+                    "equipment": "Joaquín Sánchez"
                 },
                 {
                     "pairs": [["Akos Szabo","Ángel Pérez"],["Roberto De la Gala","Fran Domínguez"]],

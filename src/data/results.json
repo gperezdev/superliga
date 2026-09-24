@@ -84,10 +84,12 @@
                 },
                 {
                     "pairs": [["Akos Szabo","Ángel Pérez"],["Roberto De la Gala","Fran Domínguez"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[4, 6, 5, 2, null],[6, 4, 7, 5, null]],
+                    "points": [[1],[2.4]],
+                    "date": "23 de set. 2026", 
+                    "court": "Pista 5",
+                    "equipment": "Akos Szabo"
+
                 }
             ]
         },

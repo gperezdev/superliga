@@ -69,10 +69,11 @@
             "games": [
                 {
                     "pairs": [["Arnau Cristóbal","Albert Doblas"],["Gerard Pérez","Martín Caballero"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[3, 6, 0, 6, 1],[6, 2, 6, 1, 5]],
+                    "points": [[1.4],[2.4]],
+                    "date": "24 de set. 2026", 
+                    "court": "Pista 5",
+                    "equipment": "Albert Doblas"
                 },
                 {
                     "pairs": [["Joaquín Sánchez","Josep Cabrera"],["David Díez","Gustavo Guerrero"]],

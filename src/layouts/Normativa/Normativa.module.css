@@ -1,0 +1,66 @@
+.normativa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 9rem 3.5rem 3.5rem;
+}
+
+.wrapper {
+    width: min(900px, 100%);
+}
+
+.season {
+    color: var(--primary);
+    font-family: var(--tag);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.title {
+    color: var(--primary);
+    font-family: var(--titles);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.document {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.section h2 {
+    color: var(--primary);
+    font-family: var(--titles);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section h3 {
+    color: var(--primary);
+    font-family: var(--titles);
+    font-size: 20px;
+}
+
+.section p {
+    font-family: var(--tag);
+    font-size: 14px;
+    font-weight: 200;
+}
+
+@media (max-width: 500px) {
+    .normativa {
+        padding: 7rem 1.5rem 2rem;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+}

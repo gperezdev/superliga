@@ -14,7 +14,6 @@ export const Fame = () => {
         <Element name='fame' className={styles['fame']}>
             <div className={styles['wrapper']}>
                 <h1 className={styles['title']}>HALL OF FAME</h1>
-
                 <div className={styles['season_winners']}>
                     <h2>TEMP. 25-26</h2>
                     <div className={styles['winners']}>

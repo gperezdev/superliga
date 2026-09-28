@@ -5,3 +5,13 @@
     display: 'flex'; 
     flex-flow: 'column nowrap';
 }
+
+.routePage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.routePageContent {
+    flex: 1;
+}

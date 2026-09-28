@@ -1,6 +1,7 @@
 //Librerías
 import { useState } from 'react'
-import { Link } from 'react-scroll'
+import { Link as ScrollLink } from 'react-scroll'
+import { Link as RouterLink, NavLink, useLocation } from 'react-router-dom'
 
 //Icons
 import logo from '../../assets/icons/logo.svg'
@@ -12,6 +13,7 @@ export const Navbar = () => {
 
 
     const [opened, setOpened] = useState(false)
+    const isLanding = useLocation().pathname === '/'
 
     return (
 
@@ -31,10 +33,33 @@ export const Navbar = () => {
                 </div>
 
                 <div className={`${styles['content']} ${opened ? styles['navbar--opened'] : ''}`}>
-                    <Link to="home" href='' smooth={true} duration={100} offset={0} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Inicio</Link>
-                    <Link to="results" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Resultados</Link>
-                    <Link to="ranking" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Clasificación</Link>
-                    <Link to="fame" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Hall of Fame</Link>
+                    {isLanding ? (
+                        <>
+                            <ScrollLink to="home" href='' smooth={true} duration={100} offset={0} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Inicio</ScrollLink>
+                            <ScrollLink to="results" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Resultados</ScrollLink>
+                            <ScrollLink to="ranking" href='' smooth={true} duration={100} offset={-80} spy={true} activeClass={styles['active']} onClick={() => setOpened(false)}>Clasificación</ScrollLink>
+                        </>
+                    ) : (
+                        <>
+                            <RouterLink to="/#home" onClick={() => setOpened(false)}>Inicio</RouterLink>
+                            <RouterLink to="/#results" onClick={() => setOpened(false)}>Resultados</RouterLink>
+                            <RouterLink to="/#ranking" onClick={() => setOpened(false)}>Clasificación</RouterLink>
+                        </>
+                    )}
+                    <NavLink
+                        to="/hall-of-fame"
+                        className={({ isActive }) => isActive ? styles['active'] : undefined}
+                        onClick={() => setOpened(false)}
+                    >
+                        Hall of Fame
+                    </NavLink>
+                    <NavLink
+                        to="/normativa"
+                        className={({ isActive }) => isActive ? styles['active'] : undefined}
+                        onClick={() => setOpened(false)}
+                    >
+                        Normativa
+                    </NavLink>
                 </div>
             </nav>
 

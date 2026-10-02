@@ -108,10 +108,12 @@
                 },
                 {
                     "pairs": [["Gustavo Guerrero","Martín Caballero"],["Arnau Cristóbal","David Díez"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[1, 1, 2, 0, 4],[6, 6, 6, 6, 6]],
+                    "points": [[0],[3.2]],
+                    "date": "1 de oct. 2026", 
+                    "court": "Pista 5",
+                    "equipment": "Gustavo Guerrero",
+                    "info": {"injured": null, "adds": null, "sanctioned": "M. Caballero ha sido sustituido."}
                 },
                 {
                     "pairs": [["Roberto De la Gala","Akos Szabo"],["Gerard Pérez","Joaquín Sánchez"]],

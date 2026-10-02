@@ -24,7 +24,7 @@ export const Ranking = () => {
 
 const PlayerTable = ({ data }) => {
 
-    //Ordenamos tabla primero por nombre y luego por puntuación
+    //Ordenar por puntos, partidos jugados, partidos ganados y nombre
     const sortedData = [...data].sort((a, b) => {
         if (b.points !== a.points) {
             return b.points - a.points
@@ -32,6 +32,10 @@ const PlayerTable = ({ data }) => {
 
         if (b.gamesPlayed !== a.gamesPlayed) {
             return b.gamesPlayed - a.gamesPlayed
+        }
+
+        if (b.wins !== a.wins) {
+            return b.wins - a.wins
         }
 
         return a.name.localeCompare(b.name)
@@ -70,7 +74,7 @@ const PlayerTable = ({ data }) => {
                     {sortedData.map((player, index) => (
                         <tr key={index} className={checkPosition(index + 1)}>
                             <td className={styles.boldValues}>{index + 1}</td>
-                            <td style={{textAlign: 'left'}} className={styles.boldValues}>{player.name}</td>
+                            <td style={{ textAlign: 'left' }} className={styles.boldValues}>{player.name}</td>
                             <td>{player.gamesPlayed}</td>
                             <td>{player.wins}</td>
                             <td>{player.loses}</td>

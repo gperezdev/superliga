@@ -131,10 +131,11 @@
             "games": [
                 {
                     "pairs": [["Gerard Pérez","Ángel Pérez"],["David Díez","Fran Domínguez"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 6, 6, 7, 4],[4, 2, 0, 6, 3]],
+                    "points": [[3.2],[0]],
+                    "date": "2 de oct. 2026", 
+                    "court": "Espadel",
+                    "equipment": "Gerard Pérez"
                 },
                 {
                     "pairs": [["Joaquín Sánchez","Roberto De la Gala"],["Gustavo Guerrero","Martín Caballero"]],

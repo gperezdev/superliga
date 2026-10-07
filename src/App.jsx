@@ -11,6 +11,7 @@ import { Results } from './layouts/Results/Results'
 import { Ranking } from './layouts/Ranking/Ranking'
 import { Fame } from './layouts/Fame/Fame'
 import { Normativa } from './layouts/Normativa/Normativa'
+import { Copa } from './layouts/Copa/Copa'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { Navbar } from './components/Navbar/Navbar'
 
@@ -61,6 +62,15 @@ export const App = () => {
                         <Navbar />
                         <div className={`${styles['page']} ${styles['routePageContent']}`}>
                             <Normativa />
+                        </div>
+                        <footer style={{ padding: '1.5rem', textAlign: 'center', fontSize: '10px', color: 'var(--primary)', fontFamily: 'var(--tag)' }}>Liga Supervila de Martorell ©</footer>
+                    </div>
+                } />
+                <Route path="/copa" element={
+                    <div className={styles['routePage']}>
+                        <Navbar />
+                        <div className={`${styles['page']} ${styles['routePageContent']}`}>
+                            <Copa />
                         </div>
                         <footer style={{ padding: '1.5rem', textAlign: 'center', fontSize: '10px', color: 'var(--primary)', fontFamily: 'var(--tag)' }}>Liga Supervila de Martorell ©</footer>
                     </div>

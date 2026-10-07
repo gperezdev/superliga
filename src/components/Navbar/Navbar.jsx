@@ -60,6 +60,13 @@ export const Navbar = () => {
                     >
                         Normativa
                     </NavLink>
+                    <NavLink
+                        to="/copa"
+                        className={({ isActive }) => isActive ? styles['active'] : undefined}
+                        onClick={() => setOpened(false)}
+                    >
+                        Copa
+                    </NavLink>
                 </div>
             </nav>
 

@@ -67,6 +67,13 @@ export const Navbar = () => {
                     >
                         Copa
                     </NavLink>
+                    <NavLink
+                        to="/playoffs"
+                        className={({ isActive }) => isActive ? styles['active'] : undefined}
+                        onClick={() => setOpened(false)}
+                    >
+                        Playoffs
+                    </NavLink>
                 </div>
             </nav>
 

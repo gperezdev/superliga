@@ -5,8 +5,8 @@ const rounds = [
     {
         title: 'Cuartos de final',
         matches: [
-            { title: 'Enfrentamiento 1', teams: ['Bombo 1 + Bombo 2', 'Bombo 1 + Bombo 2'] },
-            { title: 'Enfrentamiento 2', teams: ['Bombo 1 + Bombo 2', 'Bombo 1 + Bombo 2'] },
+            { title: 'Cuartos de final 1', teams: ['Bombo 1 + Bombo 2', 'Bombo 1 + Bombo 2'] },
+            { title: 'Cuartos de final 2', teams: ['Bombo 1 + Bombo 2', 'Bombo 1 + Bombo 2'] },
         ],
     },
     {

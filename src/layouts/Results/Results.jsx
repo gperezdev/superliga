@@ -8,6 +8,7 @@ import data from '../../data/results.json'
 
 //Arrow
 import arrow from '../../assets/icons/arrow.svg'
+import ball from '../../assets/icons/ball.svg'
 
 //CSS
 import styles from './Results.module.css'
@@ -177,8 +178,10 @@ const Pair = ({ pair, results, points, opponentPoints, equipment }) => {
                 {pair.map((name, i) => (
                     <React.Fragment key={i}>
                         <p className={isMatchWinner ? styles.winner : ''}>
-                            {equipment?.trim() === name?.trim() ? '· ' : ''}
-                            {formatName(name)}
+                            {equipment?.trim() === name?.trim() && (
+                                <img className={styles.ball} src={ball} alt="Ha traído las pelotas" />
+                            )}
+                            <span>{formatName(name)}</span>
                         </p>
 
                         {i < pair.length - 1 && (

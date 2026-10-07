@@ -168,16 +168,40 @@
 
 .matches .game .pair .names p {
     margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.matches .game .pair .names p > span {
     min-width: 0;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-.matches .game .pair .names span {
+.matches .game .pair .names .ball {
+    flex: 0 0 10px;
+}
+
+.matches .game .pair .names > span {
     flex-shrink: 0;
 }
 
+.matches .game .pair .names .winner .ball {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    filter: grayscale(0%) !important;
+}
+
+.matches .game .pair .names .ball {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    filter: grayscale(100%);
+}
 
 .matches .game .pair .sets {
     gap: 50px;
@@ -270,17 +294,21 @@
 
     .matches .game .pair .sets {
         gap: 10px;
-        width: 100px;
+        width: 80px;
     }
 
     .matches .game .pair .names {
         flex-flow: column nowrap;
         align-items: flex-start;
         gap: 0px;
-        width: 90px;
+        width: 100px;
     }
 
-    .matches .game .pair .names span {
+    .matches .game .pair .names p {
+        flex: 0 1 auto;
+    }
+
+    .matches .game .pair .names > span {
         flex-shrink: 0;
         display: none;
     }

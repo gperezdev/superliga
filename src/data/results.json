@@ -139,10 +139,12 @@
                 },
                 {
                     "pairs": [["Joaquín Sánchez","Roberto De la Gala"],["Gustavo Guerrero","Martín Caballero"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 6, null, null, null],[0, 0, null, null, null]],
+                    "points": [[2],[0]],
+                    "date": "8 de oct. 2026", 
+                    "court": "Cancelado",
+                    "info": {"injured": null, "adds": null, "sanctioned": "G. Guerrero no ha encontrado sustituto."}
+
                 },
                 {
                     "pairs": [["Albert Doblas","Akos Szabo"],["Arnau Cristóbal","Josep Cabrera"]],

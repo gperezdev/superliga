@@ -148,10 +148,11 @@
                 },
                 {
                     "pairs": [["Albert Doblas","Akos Szabo"],["Arnau Cristóbal","Josep Cabrera"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 7, 6, 6, null],[4, 6, 3, 3, null]],
+                    "points": [[2.8],[0]],
+                    "date": "9 de oct. 2026", 
+                    "court": "Pista 5",
+                    "equipment": "Akos Szabo"
                 }
             ]
         },

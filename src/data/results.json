@@ -162,10 +162,11 @@
             "games": [
                 {
                     "pairs": [["Gerard Pérez","Fran Domínguez"],["Albert Doblas","Akos Szabo"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 5, 4, 3, null],[7, 7, 6, 1, null]],
+                    "points": [[0.2],[2.4]],
+                    "date": "13 de oct. 2026", 
+                    "court": "Pista 5",
+                    "equipment": "Gerard Pérez"
                 },
                 {
                     "pairs": [["Joaquín Sánchez","Ángel Pérez"],["David Díez","Josep Cabrera"]],

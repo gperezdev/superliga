@@ -170,10 +170,11 @@
                 },
                 {
                     "pairs": [["Joaquín Sánchez","Ángel Pérez"],["David Díez","Josep Cabrera"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[7, 6, 6, 7, 1],[5, 3, 4, 5, 2]],
+                    "points": [[2.8],[0.2]],
+                    "date": "15 de oct. 2026", 
+                    "court": "Pista 4",
+                    "equipment": "Joaquín Sánchez"
                 },
                 {
                     "pairs": [["Arnau Cristóbal","Gustavo Guerrero"],["Roberto De la Gala","Martín Caballero"]],

@@ -196,6 +196,7 @@
                     "pairs": [["Arnau Cristóbal","Joaquín Sánchez"],["Fran Domínguez","Ángel Pérez"]],
                     "results": [[6, 7, 6, 6, 5],[2, 6, 3, 4, 0]],
                     "points": [[3.2],[0]],
+                    "date": "21 de oct. 2026",                     
                     "court": "Pista 5",
                     "equipment": "Arnau Cristóbal"
                 },
@@ -203,6 +204,7 @@
                     "pairs": [["Akos Szabo","Gustavo Guerrero"],["Gerard Pérez","David Díez"]],
                     "results": [[1, 2, 4, 2, 2],[6, 6, 6, 6, 6]],
                     "points": [[0],[3.2]],
+                    "date": "21 de oct. 2026",                     
                     "court": "Pista 4",
                     "equipment": "Akos Szabo"
                 },

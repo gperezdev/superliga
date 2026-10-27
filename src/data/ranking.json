@@ -6,9 +6,9 @@
     { "name": "Josep Cabrera", "gamesPlayed": 7, "wins": 1, "loses": 6, "points": 3.6 },
     { "name": "Albert Doblas", "gamesPlayed": 7, "wins": 5, "loses": 2, "points": 15.2 },
     { "name": "Akos Szabo", "gamesPlayed": 7, "wins": 3, "loses": 4, "points": 9.6 },
-    { "name": "Gustavo Guerrero", "gamesPlayed": 7, "wins": 3, "loses": 4, "points": 8.6 },
-    { "name": "Fran Domínguez", "gamesPlayed": 7, "wins": 1, "loses": 6, "points": 3.6 },
-    { "name": "Joaquín Sánchez", "gamesPlayed": 7, "wins": 6, "loses": 1, "points": 15.6 },
-    { "name": "Martín Caballero", "gamesPlayed": 7, "wins": 2, "loses": 6, "points": 5.8 },
+    { "name": "Gustavo Guerrero", "gamesPlayed": 8, "wins": 3, "loses": 5, "points": 8.6 },
+    { "name": "Fran Domínguez", "gamesPlayed": 8, "wins": 2, "loses": 6, "points": 6.8 },
+    { "name": "Joaquín Sánchez", "gamesPlayed": 8, "wins": 7, "loses": 1, "points": 18.2 },
+    { "name": "Martín Caballero", "gamesPlayed": 8, "wins": 2, "loses": 6, "points": 5.8 },
     { "name": "Roberto De la Gala", "gamesPlayed": 7, "wins": 4, "loses": 3, "points": 10.9 }
 ]

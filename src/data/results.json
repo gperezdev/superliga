@@ -238,10 +238,11 @@
                 },
                 {
                     "pairs": [["Gustavo Guerrero","Martín Caballero"],["Joaquín Sánchez","Fran Domínguez"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[4, 3, 2, 4, 3],[6, 6, 6, 6, 6]],
+                    "points": [[0],[3.2]],
+                    "date": "26 de oct. 2026",                     
+                    "court": "Pista 4",
+                    "equipment": "Gustavo Guerrero"
                 }
             ]
         },

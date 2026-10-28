@@ -22,7 +22,7 @@
                     "info": {"injured": "F. Domínguez abandona por lesión.", "adds": null, "sanctioned": null}
                 },
                 {
-                    "pairs": [["Joaquín Sánchez","Akos Szabo"],["Albert Doblas","Martín Caballero"]],
+                    "pairs": [["Joaquín Sánchez","Akos Szabo"],["Albert Doblas","Martín Cabello"]],
                     "results": [[6, 7, 6, 4, null],[3, 6, 4, 6, null]],
                     "points": [[2.4],[0.4]],
                     "date": "3 de set. 2026", 
@@ -52,7 +52,7 @@
                     "equipment": "Albert Doblas"
                 },
                 {
-                    "pairs": [["Fran Domínguez","Martín Caballero"],["Gerard Pérez","Ángel Pérez"]],
+                    "pairs": [["Fran Domínguez","Martín Cabello"],["Gerard Pérez","Ángel Pérez"]],
                     "results": [[0, 0, null, null, null],[6, 6, null, null, null]],
                     "points": [[0],[2]],
                     "date": "16 de set. 2026", 
@@ -68,7 +68,7 @@
             "dates": ["21/9/2026", "27/9/2026"],            
             "games": [
                 {
-                    "pairs": [["Arnau Cristóbal","Albert Doblas"],["Gerard Pérez","Martín Caballero"]],
+                    "pairs": [["Arnau Cristóbal","Albert Doblas"],["Gerard Pérez","Martín Cabello"]],
                     "results": [[3, 6, 0, 6, 1],[6, 2, 6, 1, 5]],
                     "points": [[1.4],[2.4]],
                     "date": "24 de set. 2026", 
@@ -107,13 +107,13 @@
                     "equipment": "Albert Doblas"
                 },
                 {
-                    "pairs": [["Gustavo Guerrero","Martín Caballero"],["Arnau Cristóbal","David Díez"]],
+                    "pairs": [["Gustavo Guerrero","Martín Cabello"],["Arnau Cristóbal","David Díez"]],
                     "results": [[1, 1, 2, 0, 4],[6, 6, 6, 6, 6]],
                     "points": [[0],[3.2]],
                     "date": "1 de oct. 2026", 
                     "court": "Pista 5",
                     "equipment": "Gustavo Guerrero",
-                    "info": {"injured": null, "adds": null, "sanctioned": "M. Caballero ha sido sustituido."}
+                    "info": {"injured": null, "adds": null, "sanctioned": "M. Cabello ha sido sustituido."}
                 },
                 {
                     "pairs": [["Roberto De la Gala","Akos Szabo"],["Gerard Pérez","Joaquín Sánchez"]],
@@ -138,7 +138,7 @@
                     "equipment": "Gerard Pérez"
                 },
                 {
-                    "pairs": [["Joaquín Sánchez","Roberto De la Gala"],["Gustavo Guerrero","Martín Caballero"]],
+                    "pairs": [["Joaquín Sánchez","Roberto De la Gala"],["Gustavo Guerrero","Martín Cabello"]],
                     "results": [[6, 6, null, null, null],[0, 0, null, null, null]],
                     "points": [[2],[0]],
                     "date": "8 de oct. 2026", 
@@ -177,7 +177,7 @@
                     "equipment": "Joaquín Sánchez"
                 },
                 {
-                    "pairs": [["Arnau Cristóbal","Gustavo Guerrero"],["Roberto De la Gala","Martín Caballero"]],
+                    "pairs": [["Arnau Cristóbal","Gustavo Guerrero"],["Roberto De la Gala","Martín Cabello"]],
                     "results": [[4, 6, 7, null, null],[6, 3, 6, null, null]],
                     "points": [[2],[1]],
                     "date": "14 de oct. 2026", 
@@ -209,7 +209,7 @@
                     "equipment": "Akos Szabo"
                 },
                 {
-                    "pairs": [["Albert Doblas","Roberto De la Gala"],["Martín Caballero","Josep Cabrera"]],
+                    "pairs": [["Albert Doblas","Roberto De la Gala"],["Martín Cabello","Josep Cabrera"]],
                     "results": [[6, 6, 6, 6, 6],[0, 2, 1, 1, 2]],
                     "points": [[3.2],[0]],
                     "date": "20 de oct. 2026", 
@@ -224,20 +224,23 @@
             "games": [
                 {
                     "pairs": [["Gerard Pérez","Josep Cabrera"],["Arnau Cristóbal","Albert Doblas"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[2, 4, 7, 1, null],[6, 6, 5, 6, null]],
+                    "points": [[0.4],[2.2]],
+                    "date": "27 de oct. 2026",                     
+                    "court": "Pista 5",
+                    "equipment": "Josep Cabrera"
                 },
                 {
                     "pairs": [["Roberto De la Gala","Ángel Pérez"],["David Díez","Akos Szabo"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[0, 0, null, null, null],[6, 6, null, null, null]],
+                    "points": [[0],[2]],
+                    "date": "27 de oct. 2026", 
+                    "court": "Pista 4",
+                    "info": {"injured": null, "adds": null, "sanctioned": "R. De la Gala no encontrado sustituto."}
+
                 },
                 {
-                    "pairs": [["Gustavo Guerrero","Martín Caballero"],["Joaquín Sánchez","Fran Domínguez"]],
+                    "pairs": [["Gustavo Guerrero","Martín Cabello"],["Joaquín Sánchez","Fran Domínguez"]],
                     "results": [[4, 3, 2, 4, 3],[6, 6, 6, 6, 6]],
                     "points": [[0],[3.2]],
                     "date": "26 de oct. 2026",                     
@@ -258,7 +261,7 @@
                     "court": null
                 },
                 {
-                    "pairs": [["Gerard Pérez","Albert Doblas"],["Joaquín Sánchez","Martín Caballero"]],
+                    "pairs": [["Gerard Pérez","Albert Doblas"],["Joaquín Sánchez","Martín Cabello"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -278,7 +281,7 @@
             "dates": ["9/11/2026", "15/11/2026"],
             "games": [
                 {
-                    "pairs": [["David Díez","Martín Caballero"],["Akos Szabo","Fran Domínguez"]],
+                    "pairs": [["David Díez","Martín Cabello"],["Akos Szabo","Fran Domínguez"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -305,7 +308,7 @@
             "dates": ["16/11/2026", "22/11/2026"],
             "games": [
                 {
-                    "pairs": [["Joaquín Sánchez","Martín Caballero"],["Arnau Cristóbal","Josep Cabrera"]],
+                    "pairs": [["Joaquín Sánchez","Martín Cabello"],["Arnau Cristóbal","Josep Cabrera"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -332,7 +335,7 @@
             "dates": ["1/2/2027", "7/12/2026"],
             "games": [
                 {
-                    "pairs": [["Roberto De la Gala","Martín Caballero"],["Ángel Pérez","Gustavo Guerrero"]],
+                    "pairs": [["Roberto De la Gala","Martín Cabello"],["Ángel Pérez","Gustavo Guerrero"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -366,7 +369,7 @@
                     "court": null
                 },
                 {
-                    "pairs": [["Fran Domínguez","Martín Caballero"],["Roberto De la Gala","Gustavo Guerrero"]],
+                    "pairs": [["Fran Domínguez","Martín Cabello"],["Roberto De la Gala","Gustavo Guerrero"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -393,7 +396,7 @@
                     "court": null
                 },
                 {
-                    "pairs": [["David Díez","Fran Domínguez"],["Arnau Cristóbal","Martín Caballero"]],
+                    "pairs": [["David Díez","Fran Domínguez"],["Arnau Cristóbal","Martín Cabello"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -420,7 +423,7 @@
                     "court": null
                 },
                 {
-                    "pairs": [["Gerard Pérez","Gustavo Guerrero"],["Roberto De la Gala","Martín Caballero"]],
+                    "pairs": [["Gerard Pérez","Gustavo Guerrero"],["Roberto De la Gala","Martín Cabello"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -440,7 +443,7 @@
             "dates": ["1/3/2027", "7/3/2027"],
             "games": [
                 {
-                    "pairs": [["Angel Pérez","Martín Caballero"],["Gustavo Guerrero","Josep Cabrera"]],
+                    "pairs": [["Angel Pérez","Martín Cabello"],["Gustavo Guerrero","Josep Cabrera"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -467,7 +470,7 @@
             "dates": ["8/3/2027", "14/3/2027"],
             "games": [
                 {
-                    "pairs": [["Fran Domínguez","Gustavo Guerrero"],["Gerard Pérez","Martín Caballero"]],
+                    "pairs": [["Fran Domínguez","Gustavo Guerrero"],["Gerard Pérez","Martín Cabello"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -501,7 +504,7 @@
                     "court": null
                 },
                 {
-                    "pairs": [["Gerard Pérez","Martín Caballero"],["Roberto De la Gala","Akos Szabo"]],
+                    "pairs": [["Gerard Pérez","Martín Cabello"],["Roberto De la Gala","Akos Szabo"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -528,7 +531,7 @@
                     "court": null
                 },
                 {
-                    "pairs": [["Albert Doblas","Martín Caballero"],["Roberto De la Gala","Josep Cabrera"]],
+                    "pairs": [["Albert Doblas","Martín Cabello"],["Roberto De la Gala","Josep Cabrera"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -562,7 +565,7 @@
                     "court": null
                 },
                 {
-                    "pairs": [["Joaquín Sánchez","Ángel Pérez"],["Akos Szabo","Martín Caballero"]],
+                    "pairs": [["Joaquín Sánchez","Ángel Pérez"],["Akos Szabo","Martín Cabello"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 
@@ -575,7 +578,7 @@
             "dates": ["19/4/2027", "25/4/2027"],
             "games": [
                 {
-                    "pairs": [["Fran Domínguez","Martín Caballero"],["Albert Doblas","Joaquín Sánchez"]],
+                    "pairs": [["Fran Domínguez","Martín Cabello"],["Albert Doblas","Joaquín Sánchez"]],
                     "results": [[null, null, null, null, null],[null, null, null, null, null]],
                     "points": [[null],[null]],
                     "date": null, 

@@ -224,7 +224,7 @@
             "games": [
                 {
                     "pairs": [["Gerard Pérez","Josep Cabrera"],["Arnau Cristóbal","Albert Doblas"]],
-                    "results": [[2, 4, 7, 1, null],[6, 6, 5, 6, null]],
+                    "results": [[2, 4, 7, 1, null],[6, 6, 5, 3, null]],
                     "points": [[0.4],[2.2]],
                     "date": "27 de oct. 2026",                     
                     "court": "Pista 5",

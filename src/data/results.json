@@ -263,17 +263,21 @@
                 },
                 {
                     "pairs": [["Gerard Pérez","Albert Doblas"],["Joaquín Sánchez","Martín Cabello"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 6, null, null, null],[0, 0, null, null, null]],
+                    "points": [[2],[0]],
+                    "date": "7 de nov. 2026",                     
+                    "court": "Suspendido",
+                    "info": {"injured": null, "adds": null, "sanctioned": "M. Cabello no se ha presentado a la hora."}
+
                 },
                 {
                     "pairs": [["Carlos Godines","David Díez"],["Roberto De la Gala","Josep Cabrera"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 6, 6, 6, 6],[1, 4, 4, 3, 0]],
+                    "points": [[3.2],[0]],
+                    "date": "6 de nov. 2026",                     
+                    "court": "Pista 5",
+                    "equipment": "David Díez",
+                    "info": {"injured": null, "adds": null, "sanctioned": "C. Godines ha sido sustituido."}
                 }
             ]
         },

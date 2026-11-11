@@ -295,17 +295,20 @@
                 },
                 {
                     "pairs": [["Carlos Godines","Albert Doblas"],["Ángel Pérez","Gustavo Guerrero"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[2, 6, 7, 6, 1],[6, 3, 6, 4, 2]],
+                    "points": [[2.4],[1.2]],
+                    "date": "10 de nov. 2026",                     
+                    "court": "Pista 6",
+                    "equipment": "Albert Doblas",
+                    "info": {"injured": null, "adds": null, "sanctioned": "C. Godines ha sido sustituido."}
                 },
                 {
                     "pairs": [["Joaquín Sánchez","Roberto De la Gala"],["Gerard Pérez","Josep Cabrera"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 6, 6, 2, 1],[4, 3, 3, 6, 0]],
+                    "points": [[2.6],[0.4]],
+                    "date": "10 de nov. 2026",                     
+                    "court": "Pista 5",
+                    "equipment": "Joaquín Sánchez"
                 }
             ]
         },

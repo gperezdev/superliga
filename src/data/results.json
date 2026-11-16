@@ -332,10 +332,11 @@
                 },
                 {
                     "pairs": [["David Díez","Akos Szabo"],["Albert Doblas","Gustavo Guerrero"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[6, 6, 7, 3, null],[3, 4, 5, 4, null]],
+                    "points": [[2.4],[0.4]],
+                    "date": "14 de nov. 2026",                     
+                    "court": "Pista 5",
+                    "equipment": "Akos Szabo"
                 }
             ]
         },

@@ -86,7 +86,7 @@ export const Playoffs = () => (
                                     <MatchCard key={match.title} title={match.title}>
                                         {match.teams.map((team, teamIndex) => (
                                             <Fragment key={`${match.title}-${teamIndex}`}>
-                                                {teamIndex > 0 && <span className={styles.versus}>versus</span>}
+                                                {teamIndex > 0 && <Versus />}
                                                 <TeamPlaceholder team={team} />
                                             </Fragment>
                                         ))}
@@ -112,6 +112,17 @@ const MatchCard = ({ title, children }) => (
 const TeamPlaceholder = ({ team }) => (
     <div className={`${styles.contestant} ${styles.team}`}>
         <span className={styles.playerName}>{team.join(' / ')}</span>
+        <div className={styles.sets} aria-label="Resultado de tres sets">
+            {[0, 1, 2].map((set) => <span key={set}>-</span>)}
+        </div>
+    </div>
+)
+
+const Versus = () => (
+    <div className={styles.versus}>
+        <span />
+        <p>versus</p>
+        <span />
     </div>
 )
 
@@ -124,14 +135,15 @@ const BracketConnector = ({ type }) => (
     >
         {type === 0 ? (
             <>
-                <path d="M0 178H20V74H40" />
-                <path d="M0 178H20V282H40" />
+                <path className={styles.desktopConnectorPath} d="M0 178H20V74H40" />
+                <path className={styles.desktopConnectorPath} d="M0 178H20V282H40" />
             </>
         ) : (
             <>
-                <path d="M0 74H20V178H40" />
-                <path d="M0 282H20V178H40" />
+                <path className={styles.desktopConnectorPath} d="M0 74H20V178H40" />
+                <path className={styles.desktopConnectorPath} d="M0 282H20V178H40" />
             </>
         )}
+        <path className={styles.mobileConnectorPath} d="M20 0V340" />
     </svg>
 )

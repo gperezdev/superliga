@@ -318,10 +318,11 @@
             "games": [
                 {
                     "pairs": [["Joaquín Sánchez","Martín Cabello"],["Carlos Godines","Josep Cabrera"]],
-                    "results": [[null, null, null, null, null],[null, null, null, null, null]],
-                    "points": [[null],[null]],
-                    "date": null, 
-                    "court": null
+                    "results": [[7, 6, 6, 6, 1],[5, 4, 4, 3, 0]],
+                    "points": [[3],[0]],
+                    "date": "17 de nov. 2026",                     
+                    "court": "Pista 6",
+                    "equipment": "Martín Cabello"
                 },
                 {
                     "pairs": [["Fran Domínguez","Ángel Pérez"],["Gerard Pérez","Roberto De la Gala"]],    

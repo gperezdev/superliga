@@ -46,34 +46,9 @@ export const Navbar = () => {
                             <RouterLink to="/#ranking" onClick={() => setOpened(false)}>Clasificación</RouterLink>
                         </>
                     )}
-                    <NavLink
-                        to="/hall-of-fame"
-                        className={({ isActive }) => isActive ? styles['active'] : undefined}
-                        onClick={() => setOpened(false)}
-                    >
-                        Hall of Fame
-                    </NavLink>
-                    <NavLink
-                        to="/normativa"
-                        className={({ isActive }) => isActive ? styles['active'] : undefined}
-                        onClick={() => setOpened(false)}
-                    >
-                        Normativa
-                    </NavLink>
-                    <NavLink
-                        to="/copa"
-                        className={({ isActive }) => isActive ? styles['active'] : undefined}
-                        onClick={() => setOpened(false)}
-                    >
-                        Copa
-                    </NavLink>
-                    <NavLink
-                        to="/playoffs"
-                        className={({ isActive }) => isActive ? styles['active'] : undefined}
-                        onClick={() => setOpened(false)}
-                    >
-                        Playoffs
-                    </NavLink>
+                    <NavLink to="/copa" className={({ isActive }) => isActive ? styles['active'] : undefined} onClick={() => setOpened(false)}                    >                        Copa</NavLink>
+                    <NavLink to="/hall-of-fame" className={({ isActive }) => isActive ? styles['active'] : undefined} onClick={() => setOpened(false)}>Hall of Fame</NavLink>
+                    <NavLink to="/normativa" className={({ isActive }) => isActive ? styles['active'] : undefined} onClick={() => setOpened(false)}>                        Normativa                    </NavLink>
                 </div>
             </nav>
 

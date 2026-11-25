@@ -107,26 +107,34 @@
 
 .matchCard {
     box-sizing: border-box;
-    padding: 15px;
-    border: 1px solid #cef17b30;
-    background: #2a2a2a50;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    border: 1px solid #CEF17B20;
+    background: #2a2a2a30;
     backdrop-filter: blur(10px);
 }
 
-.matchCard h3 {
+.matchHeader {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
     margin-bottom: 10px;
-    color: #cef17bcc;
-    font-family: var(--titles);
-    font-size: 15px;
-    font-weight: normal;
-    letter-spacing: 1px;
+}
+
+.matchHeader p {
+    font-family: var(--tag);
+    color: var(--primary);
+    font-size: 10px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .contestants {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 5px;
 }
 
 .versus {
@@ -134,7 +142,7 @@
     align-items: center;
     gap: 10px;
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.25;
 }
 
 .versus span {
@@ -146,48 +154,75 @@
 .versus p {
     margin: 0;
     color: var(--primary);
-    font-family: var(--titles);
-    font-size: 14px;
+    font-family: var(--tag);
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
-.contestant {
-    width: 100%;
-    min-height: 48px;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    justify-content: center;
-    align-items: center;
+.pair {
+    display: flex;
+    flex-flow: row nowrap;
     gap: 10px;
-    padding: 8px 10px;
-    border: 1px solid transparent;
-    background: #21212190;
+    align-items: center;
     color: var(--white);
-    text-align: left;
-}
-
-.playerName {
+    width: 100%;
     min-width: 0;
     font-family: var(--titles);
-    font-size: 16px;
-    line-height: 1.2;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.team {
-    text-align: left;
+.names,
+.sets {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.names {
+    display: flex;
+    gap: 5px;
+    flex: 1;
+    width: 250px;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.names p {
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+    min-width: 0;
+}
+
+.names p > span {
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pendingTeam {
+    opacity: 0.45;
+}
+
+.names > span {
+    flex-shrink: 0;
 }
 
 .sets {
-    display: grid;
-    grid-template-columns: repeat(3, 20px);
+    flex: 0 0 auto;
     gap: 6px;
-    font-family: var(--titles);
-    font-size: 15px;
-    text-align: center;
+    width: 85px;
+    justify-content: space-between;
 }
 
-.sets span {
-    min-height: 22px;
-    border-bottom: 1px solid #cef17b40;
+.sets p {
+    width: 12px;
+    margin: 0;
+    text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -196,15 +231,7 @@
     }
 }
 
-@media (max-width: 600px) {
-    .copa {
-        padding: 7rem 1.5rem 2rem;
-    }
-
-    .title {
-        font-size: 36px;
-    }
-
+@media (max-width: 1300px) {
     .bracket {
         grid-template-columns: minmax(0, 1fr);
         gap: 0;
@@ -239,4 +266,48 @@
     .mobileConnectorPath {
         display: block;
     }
+}
+
+@media (max-width: 600px) {
+    .copa {
+        padding: 7rem 1.5rem 2rem;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .matchCard {
+        padding: 14px;
+    }
+
+    .pair {
+        gap: 6px;
+        font-size: 16px;
+    }
+
+    .names {
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
+
+    .names > span {
+        display: none;
+    }
+
+    .names p {
+        width: 100%;
+    }
+
+    .sets {
+        gap: 3px;
+        width: 48px;
+    }
+
+    .sets p {
+        width: 10px;
+    }
+
 }

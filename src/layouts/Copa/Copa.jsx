@@ -5,21 +5,21 @@ const rounds = [
     {
         title: 'Cuartos de final',
         matches: [
-            { title: 'Cuartos de final 1', teams: ['Bombo 1 + Bombo 2', 'Bombo 1 + Bombo 2'] },
-            { title: 'Cuartos de final 2', teams: ['Bombo 1 + Bombo 2', 'Bombo 1 + Bombo 2'] },
+            { title: 'Cuartos de final 1', teams: ['Carlos Godines - Josep Cabrera', 'Roberto De la Gala - Martín Cabello'] },
+            { title: 'Cuartos de final 2', teams: ['Akos Szabo - Fran Domínguez', 'Ángel Pérez - Gustavo Guerrero'] },
         ],
     },
     {
         title: 'Semifinales',
         matches: [
-            { title: 'Semifinal 1', teams: ['Bombo 0 + clasificado de cuartos', 'Bombo 0 + clasificado de cuartos'] },
-            { title: 'Semifinal 2', teams: ['Bombo 0 + clasificado de cuartos', 'Bombo 0 + clasificado de cuartos'] },
+            { title: 'Semifinal 1', teams: ['Joaquín Sánchez - Ganador Q1 J2', 'Gerard Pérez - Ganador Q1 J1'] },
+            { title: 'Semifinal 2', teams: ['David Díez - Ganador Q2 J2', 'Albert Doblas - Ganador Q2 J1'] },
         ],
     },
     {
         title: 'Final',
         matches: [
-            { title: 'Final', teams: ['Pareja ganadora semifinal 1', 'Pareja ganadora semifinal 2'] },
+            { title: 'Final', teams: ['Semis 1 Ganador', 'Semis 2 Ganador'] },
         ],
     },
 ]
@@ -56,16 +56,40 @@ export const Copa = () => (
 
 const MatchCard = ({ title, children }) => (
     <article className={styles.matchCard}>
-        <h3>{title}</h3>
+        <div className={styles.matchHeader}>
+            <p>{title}</p>
+        </div>
         <div className={styles.contestants}>{children}</div>
     </article>
 )
 
+const formatName = (name) => {
+    if (!name) return '-'
+
+    const parts = name.trim().split(/\s+/)
+    if (parts.length === 1) return parts[0]
+
+    const firstName = parts[0]
+    const surnameParts = parts.slice(1)
+    return `${firstName.charAt(0)}. ${surnameParts.join(' ')}`
+}
+
 const TeamPlaceholder = ({ label }) => (
-    <div className={`${styles.contestant} ${styles.team}`}>
-        <span className={styles.playerName}>{label}</span>
+    <div className={styles.pair}>
+        <div className={styles.names}>
+            {label.split(' - ').map((name, index) => (
+                <Fragment key={name}>
+                    {index > 0 && <span>/</span>}
+                    <p>
+                        <span className={name.includes('Ganador') ? styles.pendingTeam : ''}>
+                            {name.includes('Ganador') ? name : formatName(name)}
+                        </span>
+                    </p>
+                </Fragment>
+            ))}
+        </div>
         <div className={styles.sets} aria-label="Resultado de tres sets">
-            {[0, 1, 2].map((set) => <span key={set}>-</span>)}
+            {[0, 1, 2].map((set) => <p key={set}>-</p>)}
         </div>
     </div>
 )

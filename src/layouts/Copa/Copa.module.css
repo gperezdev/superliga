@@ -172,6 +172,12 @@
     font-weight: bold;
 }
 
+.winner {
+    opacity: 1 !important;
+    font-weight: bold;
+    color: var(--primary);
+}
+
 .names,
 .sets {
     display: flex;

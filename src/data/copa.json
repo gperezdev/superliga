@@ -1,0 +1,44 @@
+{
+    "rounds": [
+        {
+            "title": "Cuartos de final",
+            "matches": [
+                {
+                    "title": "Cuartos de final 1",
+                    "teams": ["Carlos Godines - Josep Cabrera", "Roberto De la Gala - Martín Cabello"],
+                    "results": [[null, null, null], [null, null, null]]
+                },
+                {
+                    "title": "Cuartos de final 2",
+                    "teams": ["Akos Szabo - Fran Domínguez", "Ángel Pérez - Gustavo Guerrero"],
+                    "results": [[6, 6, 6], [4, 7, 1]]
+                }
+            ]
+        },
+        {
+            "title": "Semifinales",
+            "matches": [
+                {
+                    "title": "Semifinal 1",
+                    "teams": ["Joaquín Sánchez - Ganador Q1 J2", "Gerard Pérez - Ganador Q1 J1"],
+                    "results": [[null, null, null], [null, null, null]]
+                },
+                {
+                    "title": "Semifinal 2",
+                    "teams": ["David Díez - Fran Domínguez", "Albert Doblas - Akos Szabo"],
+                    "results": [[null, null, null], [null, null, null]]
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "matches": [
+                {
+                    "title": "Final",
+                    "teams": ["Semis 1 Ganador", "Semis 2 Ganador"],
+                    "results": [[null, null, null], [null, null, null]]
+                }
+            ]
+        }
+    ]
+}

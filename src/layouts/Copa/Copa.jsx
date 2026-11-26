@@ -1,28 +1,8 @@
 import { Fragment } from 'react'
+import copaData from '../../data/copa.json'
 import styles from './Copa.module.css'
 
-const rounds = [
-    {
-        title: 'Cuartos de final',
-        matches: [
-            { title: 'Cuartos de final 1', teams: ['Carlos Godines - Josep Cabrera', 'Roberto De la Gala - Martín Cabello'] },
-            { title: 'Cuartos de final 2', teams: ['Akos Szabo - Fran Domínguez', 'Ángel Pérez - Gustavo Guerrero'] },
-        ],
-    },
-    {
-        title: 'Semifinales',
-        matches: [
-            { title: 'Semifinal 1', teams: ['Joaquín Sánchez - Ganador Q1 J2', 'Gerard Pérez - Ganador Q1 J1'] },
-            { title: 'Semifinal 2', teams: ['David Díez - Ganador Q2 J2', 'Albert Doblas - Ganador Q2 J1'] },
-        ],
-    },
-    {
-        title: 'Final',
-        matches: [
-            { title: 'Final', teams: ['Semis 1 Ganador', 'Semis 2 Ganador'] },
-        ],
-    },
-]
+const rounds = copaData.rounds
 
 export const Copa = () => (
     <main className={styles.copa}>
@@ -39,7 +19,11 @@ export const Copa = () => (
                                         {match.teams.map((team, index) => (
                                             <Fragment key={`${match.title}-${index}`}>
                                                 {index > 0 && <Versus />}
-                                                <TeamPlaceholder label={team} />
+                                                <TeamPlaceholder
+                                                    label={team}
+                                                    results={match.results[index]}
+                                                    opponentResults={match.results[1 - index]}
+                                                />
                                             </Fragment>
                                         ))}
                                     </MatchCard>
@@ -74,8 +58,20 @@ const formatName = (name) => {
     return `${firstName.charAt(0)}. ${surnameParts.join(' ')}`
 }
 
-const TeamPlaceholder = ({ label }) => (
-    <div className={styles.pair}>
+const getSetWins = (results = [], opponentResults = []) => results.reduce(
+    (wins, score, index) => (
+        Number.isFinite(score) && Number.isFinite(opponentResults[index]) && score > opponentResults[index]
+            ? wins + 1
+            : wins
+    ),
+    0
+)
+
+const TeamPlaceholder = ({ label, results, opponentResults }) => {
+    const isWinner = getSetWins(results, opponentResults) >= 2
+
+    return (
+    <div className={`${styles.pair} ${isWinner ? styles.winner : ''}`}>
         <div className={styles.names}>
             {label.split(' - ').map((name, index) => (
                 <Fragment key={name}>
@@ -89,10 +85,11 @@ const TeamPlaceholder = ({ label }) => (
             ))}
         </div>
         <div className={styles.sets} aria-label="Resultado de tres sets">
-            {[0, 1, 2].map((set) => <p key={set}>-</p>)}
+            {[0, 1, 2].map((set) => <p key={set}>{results?.[set] ?? '-'}</p>)}
         </div>
     </div>
-)
+    )
+}
 
 const Versus = () => (
     <div className={styles.versus}>
